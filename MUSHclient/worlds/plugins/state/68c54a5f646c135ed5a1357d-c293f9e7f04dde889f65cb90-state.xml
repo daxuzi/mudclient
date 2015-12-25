@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE muclient>
+<!-- MuClient version 4.99 -->
+<!-- Written by Nick Gammon -->
+<!-- Home Page: http://www.mushclient.com/ -->
+
+<!-- Plugin state saved. Plugin: "Aardwolf_Main_Layout". World: "fy". -->
+
+<muclient>
+
+<!-- variables -->
+
+<variables
+   muclient_version="4.99"
+   world_file_version="15"
+  >
+  <variable name="enabled">true</variable>
+  <variable name="trbottom">544</variable>
+  <variable name="trleft">7</variable>
+  <variable name="trright">650</variable>
+  <variable name="trtop">140</variable>
+</variables>
+</muclient>

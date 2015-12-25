@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE muclient>
+
+<muclient>
+<plugin
+   name="Mapstart_fixer"
+   author="Nick Gammon"
+   id="6995f4518679ac5c5c9ce43e"
+   language="Lua"
+   purpose="Changes &lt;mapstart&gt; to [mapstart]"
+   date_written="2010-05-09"
+   requires="4.30"
+   version="1.0"
+   >
+
+</plugin>
+
+<script>
+<![CDATA[
+
+function OnPluginPacketReceived (s)
+  s = string.gsub (s, "<mapstart>", "[mapstart]")
+  return (string.gsub (s, "<mapend>", "[mapend]"))
+end -- OnPluginPacketReceived 
+
+]]>
+</script>
+</muclient>

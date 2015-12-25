@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE muclient>
+<!-- Saved on Sunday, August 15, 2010, 9:25 PM -->
+<!-- MuClient version 4.69 -->
+
+<muclient>
+<plugin
+   name="Aardwolf_Statmon"
+   author="Fiendish and Lasher"
+   id="ef4a86dbc9cd4dd6f4c69386"
+   language="Lua"
+   purpose="GMCP Version of statmon"
+   date_written="2010-08-15 21:25:03"
+   requires="4.73"
+   version="2.0"
+   save_state="y"
+>
+<description trim="y">
+
+Aardwolf GMCP based stats monitor.
+
+</description>
+</plugin>
+
+<aliases>
+<alias
+   match="resetaard"
+   enabled="y"
+   sequence="100"
+   ignore_case="y"
+   script="reset_aard"
+></alias>
+</aliases>
+
+<!--  Script  -->
+
+<script>
+<![CDATA[
+
+require "serialize"
+require "movewindow"
+require "commas"
+require "gmcphelper"
+require "copytable"
+
+background_colour     = 0x000000
+border_colour         = 0xcccccc
+default_width         = 209
+default_height        = 287
+default_x             = 658
+default_y             = 264
+RESIZE_TAG_SIZE = 10
+MIN_SIZE        = 100
+LEFT_MARGIN     = 10
+TOP_MARGIN      = 5
+
+-- Variables not saved.
+startx     = ""  
+starty     = ""
+posx       = "" 
+posy       = ""
+hotspot_id = ""
+cstyles    = { }
+page_built = false
+max_width  = 0
+
+-- pull in telnet option handling
+dofile (GetPluginInfo (GetPluginID(), 20) .. "telnet_options.lua")
+
+-- functions for handling Aardwolf color codes
+dofile (GetPluginInfo (GetPluginID(), 20) .. "aardwolf_colors.lua")
+
+
+color_indices = {"Str Buff","Int Buff","Yanjiu Effect","Lianxi Effect","Weapon Dm","Unarmed Dm","Armor Df",
+"Attack Buff","Defense Buff","Ap Buff","Dp Buff",
+"Damage Power","Add Damage","Reduce Damage","Double Damage","Fatal Blow",
+"Add Busy","Reduce Busy","Avoid Busy"}
+
+label_color_defaults = {["Str Buff"]=0x00FF00,["Int Buff"]=0x00FF00,["Yanjiu Effect"]=0x00FF00,["Lianxi Effect"]=0x00FF00,["Weapon Dm"]=0x00FF00,["Unarmed Dm"]=0x00FF00,["Armor Df"]=0x00FF00,
+["Attack Buff"]=0x00FF00,["Defense Buff"]=0x00FF00, ["Ap Buff"]=0x00FF00,["Dp Buff"]=0x00FF00,
+["Damage Power"]=0x00FF00,["Add Damage"]=0x00FF00,["Reduce Damage"]=0x00FF00,["Double Damage"]=0x00FF00,["Fatal Blow"]=0x00FF00,
+["Add Busy"]=0x00FF00,["Reduce Busy"]=0x00FF00,["Avoid Busy"]=0x00FF00}
+
+data_color_defaults = {["Str Buff"]=0xFFFFFF,["Int Buff"]=0xFFFFFF,["Yanjiu Effect"]=0x00FFFF,["Lianxi Effect"]=0x00FFFF,["Weapon Dm"]=0xFFFFFF,["Unarmed Dm"]=0xFFFFFF,["Armor Df"]=0xFFFFFF,
+["Attack Buff"]=0xFFFFFF,["Defense Buff"]=0xFFFFFF,["Ap Buff"]=0x00FFFF,["Dp Buff"]=0x00FFFF,
+["Damage Power"]=0x00FFFF,["Add Damage"]=0x00FFFF,["Reduce Damage"]=0x00FFFF,["Double Damage"]=0x00FFFF,["Fatal Blow"]=0x00FFFF,
+["Add Busy"]=0xFFFFFF,["Reduce Busy"]=0xFFFFFF,["Avoid Busy"]=0x00FFFF}
+
+label_colors = copytable.deep(label_color_defaults)
+data_colors = copytable.deep(data_color_defaults)
+assert (loadstring (GetVariable ("label_colors") or "")) ()
+assert (loadstring (GetVariable ("data_colors") or "")) ()
+
+function reset_aard()
+   stacked = 0
+   width = default_width
+   height = default_height
+   font_name = default_font_name
+   font_size = default_font_size
+   windowinfo.window_left = default_x
+   windowinfo.window_top = default_y
+   WindowPosition(win, default_x, default_y, 0, 18)
+   Repaint() -- hack because WindowPosition doesn't immediately update coordinates
+   OnPluginSaveState()
+   OnPluginInstall()
+end
+
+bracket = {text="[",textcolour=0xFFFF00}
+slash = {text="/",textcolour=0xFFFF00}
+endbracket = {text="]",textcolour=0xFFFF00}
+
+function BuildStatsPage()
+
+   max_width = 0
+   cstyles = {}
+
+   --- Check if we have data in each category, but only as much as necessary - once page built we can stop.
+  -- if (not gmcpdata or (gmcpval("worth") == "" or gmcpval("vitals") == "" or gmcpval("stats") == "" or 
+   --gmcpval("status") == "" or gmcpval("maxstats") == "" )) then 
+   if (not gmcpdata or (gmcpval("info") == "" )) then
+      return
+   end
+
+   if (stacked == 1) then
+      table.insert(cstyles, {
+            {text="±ÛÁ¦¸½¼Ó: ",textcolour=label_colors["Str Buff"]},
+            bracket,
+            {text=string.format("%-11d",gmcpval("info.str")),textcolour=data_colors["Str Buff"]},
+            endbracket,
+            {text="ÎòÐÔ¸½¼Ó: ",textcolour=label_colors["Int Buff"]},
+            bracket,
+            {text=string.format("%-11d",gmcpval("stats.int")),textcolour=data_colors["Int Buff"]},
+            endbracket
+            })
+      
+      table.insert(cstyles, {
+            {text="ÑÐ¾¿Ð§¹û: ",textcolour=label_colors["Yanjiu Effect"]},
+            bracket,
+            {text=string.format("%4d%s",gmcpval("stats.yjeffect"),"%"),textcolour=data_colors["Yanjiu Effect"]},
+            slash,
+            {text=string.format("%-4d%-s",gmcpval("maxstats.maxyjeff"),"%"),textcolour=data_colors["Yanjiu Effect"]},
+            endbracket,
+            {text="Á·Ï°Ð§¹û: ",textcolour=label_colors["Lianxi Effect"]},
+            bracket,
+            {text=string.format("%4d%s",gmcpval("stats.lxeffect"),"%"),textcolour=data_colors["Lianxi Effect"]},
+            slash,
+            {text=string.format("%-4d%-s",gmcpval("maxstats.maxlxeff"),"%"),textcolour=data_colors["Lianxi Effect"]},
+            endbracket
+            })
+      
+      table.insert(cstyles, {
+            {text="±øÆ÷ÉËº¦: ",textcolour=label_colors["Weapon Dm"]},
+            bracket,
+            {text=string.format("%-11d",gmcpval("stats.damage")), textcolour=data_colors["Weapon Dm"]},
+            endbracket,
+            {text="¿ÕÊÖÉËº¦: ",textcolour=label_colors["Unarmed Dm"]},
+            bracket,
+            {text=string.format("%-11d",gmcpval("stats.udamage")), textcolour=data_colors["Unarmed Dm"]},
+            endbracket
+            })
+            
+      table.insert(cstyles, {
+            {text="·À¾ß±£»¤: ",textcolour=label_colors["Armor Df"]},
+            bracket,
+            {text=string.format("%-11d",gmcpval("stats.armor")), textcolour=data_colors["Armor Df"]},
+            endbracket
+            })      
+            
+      table.insert(cstyles, {})
+      
+      table.insert(cstyles, {
+            {text="¹¥»÷¸½¼Ó: ",textcolour=label_colors["Attack Buff"]},
+            bracket,
+            {text=string.format("%-11d",gmcpval("stats.attack")),textcolour=data_colors["Attack Buff"]},
+            endbracket,        
+            {text="·ÀÓù¸½¼Ó: ",textcolour=label_colors["Defense Buff"]},
+            bracket,
+            {text=string.format("%-11d",gmcpval("stats.defense")),textcolour=data_colors["Defense Buff"]},
+            endbracket
+            })
+               
+      table.insert(cstyles, {
+            {text="¾øÕÐÃüÖÐ: ",textcolour=label_colors["Ap Buff"]},
+            bracket,
+            {text=string.format("%4d%-7s",gmcpval("stats.ap"),"%"), textcolour=data_colors["Ap Buff"]},
+            endbracket,
+            {text="¾øÕÐ·ÀÓù: ",textcolour=label_colors["Dp Buff"]},
+            bracket,
+            {text=string.format("%4d%-7s",gmcpval("stats.dp"),"%"), textcolour=data_colors["Dp Buff"]},
+            endbracket
+            })
+      
+      table.insert(cstyles, {})
+      
+      table.insert(cstyles, {
+            {text="¾øÕÐÉËº¦: ",textcolour=label_colors["Damage Power"]},
+            bracket,
+            {text=string.format("%4d%-7s",gmcpval("stats.dm"),"%"), textcolour=data_colors["Damage Power"]},
+            endbracket,
+            {text="×·¼ÓÉËº¦: ",textcolour=label_colors["Add Damage"]},
+            bracket,
+            {text=string.format("%4d%-7s",gmcpval("stats.addm"),"%"), textcolour=data_colors["Add Damage"]},
+            endbracket
+            })
+      
+      table.insert(cstyles, {
+            {text="»¯½âÉËº¦: ",textcolour=label_colors["Reduce Damage"]},
+            bracket,
+            {text=string.format("%4d%s",gmcpval("stats.rddm"),"%"), textcolour=data_colors["Reduce Damage"]},
+            slash,
+            {text=string.format("%-2d%-3s",gmcpval("maxstats.maxrddm"),"%"),textcolour=data_colors["Reduce Damage"]},
+            endbracket,
+            {text="Ë«±¶ÉËº¦: ",textcolour=label_colors["Double Damage"]},
+            bracket,
+            {text=string.format("%4d%s",gmcpval("stats.dbdm"),"%"), textcolour=data_colors["Double Damage"]},
+            slash,
+            {text=string.format("%-3d%-2s",gmcpval("maxstats.maxdbdm"),"%"),textcolour=data_colors["Double Damage"]},
+            endbracket
+            })
+            
+      table.insert(cstyles, {      
+            {text="ÖÂÃüÒ»»÷: ",textcolour=label_colors["Fatal Blow"]},
+            bracket,
+            {text=string.format("%4d%s",gmcpval("stats.fatal"),"%"), textcolour=data_colors["Fatal Blow"]},
+            slash,
+            {text=string.format("%-2d%-3s",gmcpval("maxstats.maxfatal"),"%"),textcolour=data_colors["Fatal Blow"]},
+            endbracket
+            })
+
+      table.insert(cstyles, {})
+            
+      table.insert(cstyles, {
+            {text="×·¼ÓÃ¦ÂÒ: ",textcolour=label_colors["Add Busy"]},
+            bracket,
+            {text=string.format("%-11d",gmcpval("stats.adbusy")), textcolour=data_colors["Add Busy"]},
+            endbracket,
+      	    {text="»¯½âÃ¦ÂÒ: ",textcolour=label_colors["Reduce Busy"]},
+            bracket,
+            {text=string.format("%-11d",gmcpval("stats.rdbusy")), textcolour=data_colors["Reduce Busy"]},
+            endbracket
+            })  
+      
+      table.insert(cstyles, {
+            {text="ºöÊÓÃ¦ÂÒ: ",textcolour=label_colors["Avoid Busy"]},
+            bracket,
+            {text=string.format("%4d%s",gmcpval("stats.avbusy"),"%"), textcolour=data_colors["Avoid Busy"]},
+            slash,
+            {text=string.format("%-2d%-3s",gmcpval("maxstats.maxavbusy"),"%"),textcolour=data_colors["Avoid Busy"]},
+            endbracket
+            })
+
+      fighting = gmcpval("status.enemy")
+
+      if fighting ~= "" and fighting ~= null then
+         fstr = string.format("@RFighting: @W%s @R(@W%s%%@R)@w",gmcpval("status.enemy"),gmcpval("status.enemypct"))
+         table.insert(cstyles,ColoursToStyles(fstr))
+      else
+         table.insert(cstyles,{text=""})
+      end
+   else
+      table.insert(cstyles, {
+            {text="±ÛÁ¦¸½¼Ó: ",textcolour=label_colors["Str Buff"]},
+            bracket,
+            {text=string.format("%-11d",gmcpval("info.str")),textcolour=data_colors["Str Buff"]},
+            endbracket
+      })
+
+      table.insert(cstyles, {
+            {text="ÎòÐÔ¸½¼Ó: ",textcolour=label_colors["Int Buff"]},
+            bracket,
+            {text=string.format("%-11d",gmcpval("info.int")),textcolour=data_colors["Int Buff"]},
+            endbracket
+      })
+      
+      table.insert(cstyles, {
+            {text="ÑÐ¾¿Ð§¹û: ",textcolour=label_colors["Yanjiu Effect"]},
+            bracket,
+            {text=string.format("%4d%s",gmcpval("stats.yjeffect"),"%"),textcolour=data_colors["Yanjiu Effect"]},
+            slash,
+            {text=string.format("%-4d%-s",gmcpval("maxstats.maxyjeff"),"%"),textcolour=data_colors["Yanjiu Effect"]},
+            endbracket
+      })
+      
+      table.insert(cstyles, {
+            {text="Á·Ï°Ð§¹û: ",textcolour=label_colors["Lianxi Effect"]},
+            bracket,
+            {text=string.format("%4d%s",gmcpval("stats.lxeffect"),"%"),textcolour=data_colors["Lianxi Effect"]},
+            slash,
+            {text=string.format("%-4d%-s",gmcpval("maxstats.maxlxeff"),"%"),textcolour=data_colors["Lianxi Effect"]},
+            endbracket
+      })
+      
+      table.insert(cstyles, {
+            {text="±øÆ÷ÉËº¦: ",textcolour=label_colors["Weapon Dm"]},
+            bracket,
+            {text=string.format("%-11d",gmcpval("stats.damage")), textcolour=data_colors["Weapon Dm"]},
+            endbracket
+      })
+      
+      table.insert(cstyles, {
+            {text="¿ÕÊÖÉËº¦: ",textcolour=label_colors["Unarmed Dm"]},
+            bracket,
+            {text=string.format("%-11d",gmcpval("stats.udamage")), textcolour=data_colors["Unarmed Dm"]},
+            endbracket
+      })
+      
+      table.insert(cstyles, {
+            {text="·À¾ß±£»¤: ",textcolour=label_colors["Armor Df"]},
+            bracket,
+            {text=string.format("%-11d",gmcpval("stats.armor")),textcolour=data_colors["Armor Df"]},
+            endbracket
+      })
+
+      table.insert(cstyles,{})
+      
+      table.insert(cstyles, {
+            {text="Æ½ÕÐÃüÖÐ: ",textcolour=label_colors["Attack Buff"]},
+            bracket,
+            {text=string.format("%-11d",gmcpval("stats.attack")),textcolour=data_colors["Attack Buff"]},
+            endbracket
+      })
+      
+      table.insert(cstyles, {
+            {text="Æ½ÕÐ·ÀÓù: ",textcolour=label_colors["Defense Buff"]},
+            bracket,
+            {text=string.format("%-11d",gmcpval("stats.defense")),textcolour=data_colors["Defense Buff"]},
+            endbracket
+      })
+      
+      table.insert(cstyles, {
+            {text="¾øÕÐÃüÖÐ: ",textcolour=label_colors["Ap Buff"]},
+            bracket,
+            {text=string.format("%4d%-7s",gmcpval("stats.ap"),"%"),textcolour=data_colors["Ap Buff"]},
+            endbracket
+      })
+
+      table.insert(cstyles, {
+            {text="¾øÕÐ·ÀÓù: ",textcolour=label_colors["Dp Buff"]},
+            bracket,
+            {text=string.format("%4d%-7s",gmcpval("stats.dp"),"%"),textcolour=data_colors["Dp Buff"]},
+            endbracket
+      })
+      
+      table.insert(cstyles,{})
+                
+      table.insert(cstyles, {
+            {text="¾øÕÐÉËº¦: ",textcolour=label_colors["Damage Power"]},
+            bracket,
+            {text=string.format("%4d%-7s",gmcpval("stats.dm"),"%"), textcolour=data_colors["Damage Power"]},
+            endbracket
+      })
+
+      table.insert(cstyles, {
+            {text="×·¼ÓÉËº¦: ",textcolour=label_colors["Add Damage"]},
+            bracket,
+            {text=string.format("%4d%-7s",gmcpval("stats.addm"),"%"), textcolour=data_colors["Add Damage"]},
+            endbracket
+      })
+      
+      table.insert(cstyles, {
+            {text="»¯½âÉËº¦: ",textcolour=label_colors["Reduce Damage"]},
+            bracket,
+            {text=string.format("%4d%s",gmcpval("stats.rddm"),"%"), textcolour=data_colors["Reduce Damage"]},
+            slash,
+            {text=string.format("%-2d%-3s",gmcpval("maxstats.maxrddm"),"%"),textcolour=data_colors["Reduce Damage"]},
+            endbracket
+      })
+      
+      table.insert(cstyles, {
+            {text="Ë«±¶ÉËº¦: ",textcolour=label_colors["Double Damage"]},
+            bracket,
+            {text=string.format("%4d%s",gmcpval("stats.dbdm"),"%"), textcolour=data_colors["Double Damage"]},
+            slash,
+            {text=string.format("%-3d%-2s",gmcpval("maxstats.maxdbdm"),"%"),textcolour=data_colors["Double Damage"]},
+            endbracket
+      })
+      
+      table.insert(cstyles, {
+            {text="ÖÂÃüÒ»»÷: ",textcolour=label_colors["Fatal Blow"]},
+            bracket,
+            {text=string.format("%4d%s",gmcpval("stats.fatal"),"%"), textcolour=data_colors["Fatal Blow"]},
+            slash,
+            {text=string.format("%-2d%-3s",gmcpval("maxstats.maxfatal"),"%"),textcolour=data_colors["Fatal Blow"]},
+            endbracket
+      })
+
+      table.insert(cstyles,{})
+
+      table.insert(cstyles, {
+            {text="×·¼ÓÃ¦ÂÒ: ",textcolour=label_colors["Add Busy"]},
+            bracket,
+            {text=string.format("%-11d",gmcpval("stats.adbusy")), textcolour=data_colors["Add Busy"]},
+            endbracket
+      })
+      
+      table.insert(cstyles, {
+            {text="»¯½âÃ¦ÂÒ: ",textcolour=label_colors["Reduce Busy"]},
+            bracket,
+            {text=string.format("%-11d",gmcpval("stats.rdbusy")), textcolour=data_colors["Reduce Busy"]},
+            endbracket
+      })
+            
+      table.insert(cstyles, {
+            {text="ºöÊÓÃ¦ÂÒ: ",textcolour=label_colors["Avoid Busy"]},
+            bracket,
+            {text=string.format("%4d%s",gmcpval("stats.avbusy"),"%"), textcolour=data_colors["Avoid Busy"]},
+            slash,
+            {text=string.format("%-2d%-3s",gmcpval("maxstats.maxavbusy"),"%"),textcolour=data_colors["Avoid Busy"]},
+            endbracket
+      })      
+      
+      fighting = gmcpval("status.enemy")
+
+      if fighting ~= "" and fighting ~= null then
+         fstr = string.format("@RFighting: @W%s @R(@W%s%%@R)@w",gmcpval("status.enemy"),gmcpval("status.enemypct"))
+         table.insert(cstyles,ColoursToStyles(fstr))
+      else
+         table.insert(cstyles,{text=""})
+      end
+   end -- if stacked
+
+   for i,v in ipairs(cstyles) do
+      max_width = math.max(max_width, styleWidth(v)+LEFT_MARGIN)
+   end
+   page_built = true
+end -- BuildStatsPage
+
+function Print()
+   WindowRectOp(win, 2, 2,2,-2,-2,background_colour) -- blank 
+   
+   if not page_built then
+      txt = "Stats will appear here"
+      txtlen = WindowTextWidth(win,font_id,txt)
+      WindowText (win, font_id, txt, (width-txtlen)/2, (height/2)-line_height, 0, 0, 0xeeeeee, utf8)
+      txt = "once you start playing."
+      txtlen = WindowTextWidth(win,font_id,txt)
+      WindowText (win, font_id, txt, (width-txtlen)/2, height/2, 0, 0, 0xeeeeee, utf8)
+   else
+      -- display each line
+      local left = LEFT_MARGIN
+      local top = 0
+      for i, v in ipairs (cstyles) do
+         top = TOP_MARGIN + (i - 1) * line_height
+         Display_Styled_Line (win, font_id, v, left, top)
+      end -- for
+      if cstyles[#cstyles].text == "" then
+         Display_Styled_Line (win, font_id, {{text="Fighting :",textcolour=0x444444}}, left, top)           
+      end
+   end
+
+   -- draw edge frame.
+   WindowRectOp (win, 1, 0, 0, 0, 0, border_colour, 15)
+   WindowRectOp (win, 1, 1, 1, -1, -1, 0x777777, 15)
+
+   -- draw the resize widget bottom right corner.
+   WindowLine(win, width-3, height-2, width-2, height-3, 0xffffff, 0, 2)
+   WindowLine(win, width-4, height-2, width-2, height-4, 0x696969, 0, 1)
+   WindowLine(win, width-6, height-2, width-2, height-6, 0xffffff, 0, 2)
+   WindowLine(win, width-7, height-2, width-2, height-7, 0x696969, 0, 1)
+   WindowLine(win, width-9, height-2, width-2, height-9, 0xffffff, 0, 2)
+   WindowLine(win, width-10, height-2, width-2, height-10, 0x696969, 0, 1)
+   WindowLine(win, width-12, height-2, width-2, height-12, 0xffffff, 0, 2)
+   WindowLine(win, width-13, height-2, width-2, height-13, 0x696969, 0, 1)
+
+   BroadcastPlugin (999, "repaint")
+end
+
+function RefreshPage()
+   BuildStatsPage()
+   Print()
+end
+
+-- returns the end of the line
+function Display_Styled_Line (win, font_id, styles, left, top)
+   for _, v in ipairs (styles) do
+      left = left + WindowText (win, font_id, v.text, left, top, 0, 0, v.textcolour)
+   end -- for each style run
+   return left                
+end -- Display_Styled_Line
+
+-- right click menu
+function right_click_menu ()
+
+   colorstring = ">All Fields|All Labels|All Data|<|-|"
+   for k,v in pairs(color_indices) do
+      colorstring = colorstring..">"..v.."|"..v.." Label ("..RGBColourToName(label_colors[v])..")|"..v.." Data ("..RGBColourToName(data_colors[v])..")|<|"
+   end
+
+   menustring = "Flip Orientation|Change Font|>Colors|"..colorstring.."<|-|Bring To Front|Send To Back|-|Reset Defaults"
+
+   result = WindowMenu (win,
+      WindowInfo (win, 14),  -- x position
+      WindowInfo (win, 15),   -- y position
+      menustring) -- content
+
+   if result == "Flip Orientation" then
+      stacked = (((stacked == 1) and 0) or 1)
+      SetVariable("stacked", stacked)
+      height           = orig_height
+      width            = default_width
+      movewindow.save_state(win)
+      SetVariable("width",width)
+      SetVariable("height",height)
+      SetVariable("font_name",font_name)
+      SetVariable("font_size",font_size)
+      OnPluginInstall()
+      BuildStatsPage()
+      if (page_built) then
+         if (max_width ~= 0) then
+            width = max_width+LEFT_MARGIN
+            height = max_height+TOP_MARGIN
+            SetVariable ("width", width)
+            SetVariable("height",height)
+         end
+         SetUpHotspotsAndDraw()
+      end
+   elseif result == "Change Font" then
+      wanted_font = utils.fontpicker (font_name, font_size) --font dialog
+      if wanted_font then
+         font_name = wanted_font.name
+         font_size = wanted_font.size
+         SetVariable("font_name", font_name)
+         SetVariable("font_size", font_size)
+         OnPluginInstall()
+         BuildStatsPage()
+         if (page_built) then
+            if (max_width ~= 0) then
+               width = max_width+LEFT_MARGIN
+               height = max_height+TOP_MARGIN
+               SetVariable("width", width)
+               SetVariable("height",height)
+            end
+            SetUpHotspotsAndDraw()
+         end
+      end
+   elseif string.find(result,"Label") then
+      local item = string.sub(result,1,string.find(result,"Label")-2)
+      if item == "All" then
+         local newcolour = PickColour(0x00FF00)
+         if newcolour ~= -1 then
+            for i,v in pairs(label_colors) do
+               label_colors[i] = newcolour
+            end
+            OnPluginSaveState()
+            RefreshPage()
+         end
+      else
+         local newcolour = PickColour(label_colors[item])
+         if newcolour ~= -1 then
+            label_colors[item] = newcolour
+            OnPluginSaveState()
+            RefreshPage()
+         end
+      end
+   elseif string.find(result,"Data") then
+      local item = string.sub(result,1,string.find(result,"Data")-2)
+      if item == "All" then
+         local newcolour = PickColour(0xFFFFFF)
+         if newcolour ~= -1 then
+            for i,v in pairs(label_colors) do
+               data_colors[i] = newcolour
+            end
+            OnPluginSaveState()
+            RefreshPage()
+         end
+      else
+         local newcolour = PickColour(data_colors[item])
+         if newcolour ~= -1 then
+            data_colors[item] = newcolour
+            OnPluginSaveState() 
+            RefreshPage()
+         end
+      end
+   elseif result == "Bring To Front" then
+      CallPlugin("462b665ecb569efbf261422f","boostMe", win)
+   elseif result == "Send To Back" then
+      CallPlugin("462b665ecb569efbf261422f","dropMe", win)
+   elseif result == "Reset Defaults" then
+      font_name        = default_font_name
+      font_size        = default_font_size
+      height           = default_height
+      width            = default_width
+      stacked = 0
+      label_colors = copytable.deep(label_color_defaults)
+      data_colors = copytable.deep(data_color_defaults)
+      movewindow.save_state(win)
+      OnPluginSaveState()
+      OnPluginInstall()
+      BuildStatsPage()
+      if (page_built) then
+         SetUpHotspotsAndDraw()
+      end
+   end -- if
+end -- right_click_menu
+
+--=================================================================================
+-- Called when plugin receives telnet data - main entry point for actually running
+-- the plugin.
+--=================================================================================
+function OnPluginBroadcast (msg, id, name, text)
+
+   -- Look for GMCP handler.
+   if (id == '3e7dedbe37e44942dd46d264') then
+      if (text == 'reload') then
+         -- invalidate current data
+         page_built = false 
+         return
+      end
+
+      if (text == "char.stats" or text == "char.maxstats" or text == "char.vitals" or text == "char.worth" or text == "char.status") then
+         res, gmcparg = CallPlugin("3e7dedbe37e44942dd46d264","gmcpval","char")
+
+         luastmt = "gmcpdata = " .. gmcparg
+         assert (loadstring (luastmt or "")) ()
+         RefreshPage()
+      end
+   elseif (id == "462b665ecb569efbf261422f" and msg==996 and text == "re-register z") then
+      CallPlugin("462b665ecb569efbf261422f", "registerMiniwindow", win)
+   end
+end
+
+---------------------------------------------------------------------------------
+-- Called as the window is dragged around. This function and those below are
+-- only 'handlers' because they are set in WindowAddHotSpot
+---------------------------------------------------------------------------------
+function ResizeMoveCallback()
+   if GetPluginVariable("c293f9e7f04dde889f65cb90", "lock_down_miniwindows") == "1" then
+      return
+   end
+   posx, posy = WindowInfo (win, 17), WindowInfo (win, 18)
+   width = width + posx - startx
+   startx = posx
+   if max_width ~= 0 and width < math.min(MIN_SIZE, max_width + LEFT_MARGIN) then
+      width = math.min(MIN_SIZE, max_width + LEFT_MARGIN)
+      startx = windowinfo.window_left+width
+   elseif (windowinfo.window_left+width > GetInfo(281)) then
+      width = GetInfo(281)-windowinfo.window_left
+      startx = GetInfo(281)
+   end 
+
+   height = height + posy - starty
+   starty = posy
+   if height < math.min(MIN_SIZE, max_height+TOP_MARGIN) then
+      height = math.min(MIN_SIZE, max_height+TOP_MARGIN)
+      starty = windowinfo.window_top+height
+   elseif (windowinfo.window_top+height > GetInfo(280)) then
+      height = GetInfo(280)-windowinfo.window_top
+      starty = GetInfo(280)
+   end
+   if (utils.timer() - lastRefresh > 0.0333) then
+      SetUpHotspotsAndDraw(false)
+      lastRefresh = utils.timer()
+   end
+end
+
+lastRefresh = 0
+
+---------------------------------------------------------------------------------
+-- Called after the resize widget is released.
+---------------------------------------------------------------------------------
+function ResizeReleaseCallback()
+   SetUpHotspotsAndDraw()
+end
+
+---------------------------------------------------------------------------------
+-- Called when mouse button is pressed on hotspot.
+---------------------------------------------------------------------------------
+function MouseDown(flags, hotspot_id)
+   if (hotspot_id == "resize") then
+      startx, starty = WindowInfo (win, 17), WindowInfo (win, 18)
+   end
+end
+
+---------------------------------------------------------------------------------
+-- Called when mouse moved away from hotspot. Doesn't really apply for draggables.
+---------------------------------------------------------------------------------
+function CancelMouseDown(flags, hotspot_id)
+end
+
+---------------------------------------------------------------------------------
+-- Called when mouse button released on hotspot.
+---------------------------------------------------------------------------------
+function MouseUp(flags, hotspot_id, win)
+   if bit.band (flags, miniwin.hotspot_got_rh_mouse) ~= 0 then
+      right_click_menu()
+   end
+   return true
+end
+
+function LeftClickOnly(flags, hotspot_id, win)
+   if bit.band (flags, miniwin.hotspot_got_rh_mouse) ~= 0 then
+      return true
+   end
+   return false
+end
+
+---------------------------------------------------------------------------------
+-- Called when plugin is saved - store our variables for next time.
+---------------------------------------------------------------------------------
+function OnPluginSaveState ()
+   -- save window current location for next time  
+   movewindow.save_state (win)
+   SetVariable ("enabled", tostring (GetPluginInfo (GetPluginID (), 17)))
+   SetVariable ("background_colour", background_colour)
+   SetVariable ("width", width)
+   SetVariable ("height", height)
+   SetVariable ("font_name", font_name)
+   SetVariable ("font_size", font_size)
+   SetVariable ("stacked", stacked)
+   SetVariable ("label_colors", serialize.save("label_colors"))
+   SetVariable ("data_colors", serialize.save("data_colors"))
+end
+
+function OnPluginClose ()
+   OnPluginDisable()
+   WindowDelete(win)
+end
+
+function OnPluginDisable ()
+   WindowShow( win, false )
+end
+
+function OnPluginEnable ()
+   WindowShow( win, true)
+end
+
+function OnPluginConnect()
+   TelnetOptionOff(TELOPT_STATMON)
+end
+
+
+win = GetPluginID()
+require "checkplugin"
+function OnPluginListChanged ()
+   do_plugin_check_now ("abc1a0944ae4af7586ce88dc", "aard_repaint_Buffer") -- check we have the repaint Buffer plugin
+   do_plugin_check_now ("3e7dedbe37e44942dd46d264", "aard_GMCP_handler")    -- check we have GMCP plugin
+   do_plugin_check_now ("462b665ecb569efbf261422f", "aard_miniwindow_z_order_monitor") -- check we have z order plugin
+end
+
+
+function OnPluginInstall()
+   -- make window so I can grab the font info
+   WindowCreate (win, 600, 600, 1, 1, 0, 0, background_colour) 
+
+   font_id        = "statmon_font"
+
+   local fonts = utils.getfontfamilies ()
+
+   -- if not there already, add it
+   if not fonts.Dina then
+      AddFont (GetInfo (66) .. "\\Dina.fon")
+      fonts = utils.getfontfamilies ()
+   end -- if Dina not installed
+
+   if fonts ["Dina"] then
+      default_font_size = 8
+      default_font_name = "Dina"    -- the actual font
+   elseif fonts["Courier New"] then
+      default_font_size = 9
+      default_font_name = "Courier New"
+   else
+      default_font_size = 9
+      default_font_name = "Lucida Console"
+   end -- if
+
+   font_name = GetVariable("font_name") or default_font_name
+   font_size = tonumber(GetVariable("font_size")) or default_font_size
+
+   --- Load the fonts into the temp window.
+   WindowFont (win, font_id, font_name, font_size, false, false, false, false) -- normal font
+
+   --- Grab font size settings.
+   font_height = WindowFontInfo (win, font_id, 1) -  WindowFontInfo (win, font_id, 4) + 1 -- height
+   font_width  = WindowFontInfo (win, font_id, 6)  -- avg width
+   line_height = font_height + 1
+   stacked = tonumber(GetVariable("stacked")) or 0
+   max_height = (line_height*(((stacked == 1) and 12) or 23))+(TOP_MARGIN+1)
+
+   --- Pull some state variables.
+   background_colour = tonumber (GetVariable ("background_colour")) or background_colour
+   height = tonumber (GetVariable ("height")) or default_height
+   orig_height = height
+   width = tonumber (GetVariable ("width")) or default_width
+
+   --- install the window movement handler, get back the window position.
+   windowinfo = movewindow.install (win, miniwin.pos_top_right, miniwin.create_absolute_location, false, nil, {mouseup=MouseUp, mousedown=LeftClickOnly, dragmove=LeftClickOnly, dragrelease=LeftClickOnly},{x=default_x, y=default_y})
+
+   --- Setup the window.
+   SetUpHotspotsAndDraw(true)
+
+   if IsConnected() then
+      Send_GMCP_Packet("request char")
+   end
+end
+
+--=================================================================================
+-- Called by OnPluginInstall, but also by redraw routine to refresh the screen
+-- and (if the first time) add the resizer tag, otherwise move the resizer relative
+-- to the main window.
+--=================================================================================
+function SetUpHotspotsAndDraw(firstTime)
+   if (firstTime == true) then
+      check (WindowCreate (win, 
+         windowinfo.window_left, windowinfo.window_top,   -- left, top (auto-positions)
+         width,     -- width
+         height,  -- height
+         windowinfo.window_mode,       -- auto-position: middle right
+         windowinfo.window_flags,  -- flags
+         background_colour) )                
+
+      -- Add handler for resizing
+      WindowAddHotspot(win, "resize", width-RESIZE_TAG_SIZE, height-RESIZE_TAG_SIZE, width, height, "MouseOver", "CancelMouseOver", "MouseDown", "CancelMouseDown", "MouseUp", "", 6, 0)
+      WindowDragHandler(win, "resize", "ResizeMoveCallback", "ResizeReleaseCallback", 0)
+      CallPlugin("462b665ecb569efbf261422f", "registerMiniwindow", win) -- fail silently
+      WindowShow (win, true)
+   else
+      -- everything has already been made
+      -- just move them back into place
+      WindowResize(win, width, height, background_colour)
+      WindowMoveHotspot(win, "resize", width-RESIZE_TAG_SIZE, height-RESIZE_TAG_SIZE, width, height)
+   end
+   -- Add the drag handler so they can move the window around
+   movewindow.add_drag_handler (win, 0, 0, 0, 0)
+
+   Print()
+end
+
+-------------------------------------------------------------------------------
+--- Calculate width of a line of styled text without drawing it.
+-------------------------------------------------------------------------------
+function styleWidth(styles)
+   local s = ""
+   for _,w in ipairs (styles) do
+      s = s .. w.text
+   end
+   return WindowTextWidth(win,font_id,s)
+end
+
+function getmemoryusage()
+  collectgarbage('collect')
+  return collectgarbage('count')
+end
+
+]]>
+</script>
+</muclient>

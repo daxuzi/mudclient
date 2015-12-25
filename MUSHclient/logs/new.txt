@@ -1,0 +1,655 @@
+fytest - 2015年 十二月 17日 星期四, 下午 11:39
+----------------------------------------------
+
+ 
+
+
+MMMMMMMMMMMM'`   MMMMMMMMMMMMMMMMMMM'"~   _gMMMMMMMMMMMMMMMMMMMMMMM8''MMMMMMMMMMMMMMMMMMF~{M  #'~MM
+MMMMMMMMP"  _,  _MMMMMMMMMMMMMMMP'    _g  +''"~    ~"MMMMMMMM' $MMh_  {MMMMMMMMMMMMMMMPM+      _dMM
+MMMMMM
+MMMM] MM'~  2}  MMMMMMMMMMMMMMMM'MMF'gM  MMMMK__mMMMMMMMMMM'_MMMMM'~ MMMMMMMMMMMMMMMMMP ~ "  mMMMMM
+MMMMJ M    *'#  $MMMMMMMMMMMMM'  ' gMM] {MM  [MMMMMMMMMMMF qMMT"~   _MM'~MMMMMMMMMM~ _gF  _  _gMMMM
+MMMM]  "'    _  @MMMMMMMMMMMM'   qM~VMP MF  qMMMMMMMMMMP~  MMMp,   7'` _gMMMMMMMMMhqM8   __   {MMMM
+MMMMPj, '    M,  MMMMMMM'(MMJ  _MMM, _L @@MMMMMMMMMMMMM   $MMMP`  ,   MMMMMMMMMMMMMF`_d  #   MMMMMM
+MMMF_M
+MMMqMMMMP  '  ~M,  "TMM}  MMMMMMMMMMMMM  ~"MMMMMMMMMM  q,  [' g
+MM'MMP''`  _@__gMm_   ``  MMMMMMMMMMMMMM  _MMMMMMMMML gM
+M# MMMpgMMMMMMMMMMMMx_  _gMMMMMMMMMMMMM#  """MMMMMMMMMMMML  MMMMM@MMMMMMMMMMMMMMMMMMMMM, ML  ~  {MM
+MLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm__qmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#_[MMMMmMMMM
+        
+
+
+　　　　　　　　－　　＝　　风　　云　　２　　０　　１　　４　　＝　　－
+
+　　　　　　　　　　　　　　　　　　　＊　总　站　＊　　
+        
+        
+        
+                                狂风一翻滚，
+                                                何处不是云。
+        
+　　　　　　　             风云2014家页：http://www.fengyun2014.com/
+　　　　　　　             风云2014总站地址 fy.fengyun2014.com 端口6000
+
+　　　　　　　             玩家交流QQ群号：  371590224
+
+风云2014（Fengyun version 6.0）已经运行了一天七小时三十四分三十四秒。
+风云时间：辛丑年十月十日寅时四刻。
+当地时间：二零一五年十二月十七日二十三点四十一分 星期四。
+风云世界当前Quest的奖励为：200％
+
+您所在的地址(223.198.88.75)还允许有十一位玩家连线。
+
+使用风云通行证登录请输入１，直接用人物ＩＤ登录请输入０：
+
+您的英文名字：
+此英文名字已被使用，请输入此帐号的密码：
+您要将另一个连线中的相同人物赶出去，取而代之吗？？(y/n)
+重新连线完毕。
+【系统】肥猫啊(starfish)由223.198.88.75(海南省海口市 电信)重新连线进入。
+fystatus:kee:20774/30774/30774
+即将开始检测你的客户端对MXP的支持程度。如果5s中之内没有反应，代表你使用的客户端完全不支持MXP,请按回车进入普通模式。
+推荐使用Zmud,CMud和MushClient。请访问http://pkuxkx.net/forum/thread-9684-1-1.html学习如何配置MXP客户端。
+
+你的客户端支持MXP。
+[/]开发站# 
+【新手】肥猫啊(Starfish)：a
+无聊少年走了过来。
+太阳即将升起，东方的天空越来越亮。
+
+无聊少年道：听说最近一个金狮镖局的镖师得到了口宝剑，锋利无比，当真是件神
+兵利器。。。。 回头跟他去比试一下。
+gmcpinfo:request room
+gmcpinfo:request room
+【闲聊】肥猫啊(Starfish)：o
+无聊少年道：听说最近一个金狮镖局的镖师得到了口宝剑，锋利无比，当真是件神
+兵利器。。。。 回头跟他去比试一下。
+无聊少年往东离开。
+东方的天空上，太阳已经高高的挂起。
+
+无聊少年走了过来。
+无聊少年往南离开。
+妖雪走了过来。
+正午到了，太阳当空，气温逐渐增高。
+
+妖雪往南离开。
+妖雪走了过来。
+妖雪走了过来。
+妖雪往北离开。
+妖雪往上离开。
+妖雪走了过来。
+妖雪往西离开。
+妖雪走了过来。
+妖雪往南离开。
+天空中太阳开始西落，阳光逐渐倾斜。
+
+无聊少年走了过来。
+【系统】开始处理scenery_phase
+【系统】当前天是9,上次处理的日期是8，现在是否是newday?1
+【系统】黄山日出(/d/huangshan/qingliang.c)景观现在就要发生了，现在happen是1。
+
+【系统】沙漠驼旅(/d/quicksand/yizhan.c)景观现在就要发生了，现在happen是1。
+
+无聊少年道：听说最近一个金狮镖局的镖师得到了口宝剑，锋利无比，当真是件神
+兵利器。。。。 回头跟他去比试一下。
+无聊少年往南离开。
+妖雪走了过来。
+无聊少年走了过来。
+张良栋走了过来。
+无聊少年往南离开。
+张良栋往上离开。
+妖雪往东离开。
+张良栋走了过来。
+张良栋往西离开。
+妖雪走了过来。
+妖雪走了过来。
+张良栋走了过来。
+张良栋往东离开。
+张良栋走了过来。
+张良栋往西离开。
+妖雪往西离开。
+妖雪往北离开。
+张良栋走了过来。
+张良栋往东离开。
+太阳的余晖将西方的天空映成一片火红。
+
+妖雪走了过来。
+妖雪往南离开。
+【系统】常春海潮(/d/changchun/rock0.c)景观现在就要发生了，现在happen是1。
+
+夜晚降临了，夜空中，月亮悄悄爬上了树稍。
+
+妖雪走了过来。
+妖雪往南离开。
+无聊少年走了过来。
+妖雪走了过来。
+无聊少年道：听说最近一个金狮镖局的镖师得到了口宝剑，锋利无比，当真是件神
+兵利器。。。。 回头跟他去比试一下。
+无聊少年往北离开。
+妖雪往西离开。
+三更半夜了，夜空中月光洒落，到处一片灰暗。
+
+
+执行时段错误：*(query) kungfu/class/huashan/first#220480 物件的资料库变数型态错误。
+
+程式：/feature/dbase.c 第 138 行
+物件: /kungfu/class/huashan/first#220480
+呼叫来自：/std/char.c 的 heart_beat() 第 772 行，物件： /d/huashan/npc/yellowbird#16100 ("小黄雀")
+呼叫来自：/feature/attack.c 的 check_visibler() 第 586 行，物件： /d/huashan/npc/yellowbird#16100 ("小黄雀")
+呼叫来自：/inherit/char/first.c 的 init() 第 49 行，物件： /kungfu/class/huashan/first#220480 ("/kungfu/class/huashan/first#220480")
+呼叫来自：/feature/dbase.c 的 query() 第 138 行，物件： /kungfu/class/huashan/first#220480 ("/kungfu/class/huashan/first#220480")
+
+执行时段错误：*Bad argument 1 to find_object()
+Expected: string Got: 0.
+
+程式：/inherit/char/first.c 第 84 行
+物件: /kungfu/class/huashan/first#220480
+呼叫来自：/std/char.c 的 heart_beat() 第 772 行，物件： /kungfu/class/huashan/first#220480 ("/kungfu/class/huashan/first#220480")
+呼叫来自：/feature/attack.c 的 check_visibler() 第 586 行，物件： /kungfu/class/huashan/first#220480 ("/kungfu/class/huashan/first#220480")
+呼叫来自：/inherit/char/first.c 的 init() 第 49 行，物件： /kungfu/class/huashan/first#220480 ("/kungfu/class/huashan/first#220480")
+呼叫来自：/inherit/char/first.c 的 create_identity() 第 84 行，物件： /kungfu/class/huashan/first#220480 ("/kungfu/class/huashan/first#220480")
+【系统】系统于2015年12月18日0点1分46秒开始分布/obj/treasure/npc/chiyou.c
+
+妖雪走了过来。
+【系统】time is 1450368116, room pay time is 1418025416, difference is 53
+【系统】time is 1450368116, room pay time is 1411206562, difference is 64
+【系统】time is 1450368116, room pay time is 1412280466, difference is 62
+【系统】time is 1450368116, room pay time is 1416122372, difference is 56
+【系统】time is 1450368116, room pay time is 1403335926, difference is 77
+【系统】time is 1450368116, room pay time is 1412386626, difference is 62
+【系统】time is 1450368116, room pay time is 1404285544, difference is 76
+【系统】room expiration is 185
+
+【系统】time is 1450368116, room pay time is 1416122350, difference is 56
+【系统】time is 1450368116, room pay time is 1412285762, difference is 62
+【系统】room expiration is 159
+
+【系统】time is 1450368116, room pay time is 1417617216, difference is 54
+【系统】time is 1450368116, room pay time is 1412932909, difference is 61
+【系统】time is 1450368116, room pay time is 1412930182, difference is 61
+【系统】time is 1450368116, room pay time is 1412933070, difference is 61
+【系统】time is 1450368116, room pay time is 1412933021, difference is 61
+【系统】time is 1450368116, room pay time is 1412932961, difference is 61
+【系统】time is 1450368116, room pay time is 1412932825, difference is 61
+【系统】time is 1450368116, room pay time is 1412932014, difference is 61
+【系统】time is 1450368116, room pay time is 1415850489, difference is 57
+【系统】time is 1450368116, room pay time is 1414339757, difference is 59
+【系统】time is 1450368116, room pay time is 1418304631, difference is 53
+【系统】time is 1450368116, room pay time is 1404010253, difference is 76
+【系统】time is 1450368116, room pay time is 1404466019, difference is 75
+【系统】time is 1450368116, room pay time is 1412058252, difference is 63
+【系统】room expiration is 27
+
+【系统】time is 1450368116, room pay time is 1416122314, difference is 56
+【系统】time is 1450368116, room pay time is 1415362398, difference is 57
+【系统】time is 1450368116, room pay time is 1413946312, difference is 60
+【系统】time is 1450368116, room pay time is 1403449109, difference is 77
+【系统】time is 1450368116, room pay time is 1403365337, difference is 77
+【系统】time is 1450368116, room pay time is 1403198355, difference is 77
+【系统】room expiration is 193
+
+【系统】time is 1450368116, room pay time is 1410230807, difference is 66
+【系统】room expiration is 164
+
+【系统】time is 1450368116, room pay time is 1415666974, difference is 57
+【系统】time is 1450368116, room pay time is 1415801698, difference is 57
+【系统】room expiration is 144
+
+【系统】time is 1450368116, room pay time is 1395573164, difference is 90
+【系统】room expiration is 164
+
+【系统】time is 1450368116, room pay time is 1405138100, difference is 74
+【系统】room expiration is 175
+
+【系统】time is 1450368116, room pay time is 1417946394, difference is 53
+【系统】time is 1450368116, room pay time is 1414590922, difference is 59
+【系统】room expiration is 148
+
+【系统】time is 1450368116, room pay time is 1416248698, difference is 56
+【系统】time is 1450368116, room pay time is 1419051619, difference is 51
+【系统】time is 1450368116, room pay time is 1414281718, difference is 59
+【系统】time is 1450368116, room pay time is 1412388264, difference is 62
+【系统】time is 1450368116, room pay time is 1412828578, difference is 62
+【系统】time is 1450368116, room pay time is 1412997842, difference is 61
+【系统】time is 1450368116, room pay time is 1410976414, difference is 65
+【系统】room expiration is 126
+
+【系统】time is 1450368116, room pay time is 1412092228, difference is 63
+【系统】time is 1450368116, room pay time is 1417944220, difference is 53
+【系统】time is 1450368116, room pay time is 1406195037, difference is 73
+【系统】room expiration is 173
+
+【系统】time is 1450368116, room pay time is 1432653053, difference is 29
+【系统】room expiration is 33
+
+【系统】time is 1450368116, room pay time is 1406811366, difference is 72
+【系统】room expiration is 166
+
+【系统】time is 1450368116, room pay time is 1412330453, difference is 62
+【系统】time is 1450368116, room pay time is 1414454137, difference is 59
+【系统】time is 1450368116, room pay time is 1404728408, difference is 75
+【系统】room expiration is 179
+
+【系统】time is 1450368116, room pay time is 1416122414, difference is 56
+【系统】time is 1450368116, room pay time is 1418163596, difference is 53
+【系统】room expiration is 139
+
+【系统】time is 1450368116, room pay time is 1403336104, difference is 77
+【系统】time is 1450368116, room pay time is 1413444196, difference is 61
+【系统】time is 1450368116, room pay time is 1415807846, difference is 57
+【系统】time is 1450368116, room pay time is 1414298645, difference is 59
+【系统】time is 1450368116, room pay time is 1415187408, difference is 58
+【系统】time is 1450368116, room pay time is 1412525458, difference is 62
+【系统】time is 1450368116, room pay time is 1414396993, difference is 59
+【系统】time is 1450368116, room pay time is 1404467978, difference is 75
+【系统】room expiration is 182
+
+【系统】time is 1450368116, room pay time is 1418113553, difference is 53
+【系统】time is 1450368116, room pay time is 1418296480, difference is 53
+【系统】room expiration is 139
+
+【系统】time is 1450368116, room pay time is 1418269169, difference is 53
+【系统】room expiration is 139
+
+【系统】听琴毛女洞(/d/huashan/cave.c)景观现在就要发生了，现在happen是1。
+
+妖雪往西离开。
+妖雪走了过来。
+妖雪走了过来。
+妖雪走了过来。
+冬雪纷纷扬扬的落着，静悄悄的，无声无息的覆下来。
+
+妖雪往南离开。
+妖雪往东离开。
+妖雪往西离开。
+妖雪走了过来。
+妖雪往西离开。
+妖雪走了过来。
+东方的天空中逐渐出现了一丝微曦。
+
+妖雪往东离开。
+妖雪走了过来。
+妖雪走了过来。
+妖雪往东离开。
+妖雪往西离开。
+妖雪走了过来。
+太阳即将升起，东方的天空越来越亮。
+
+妖雪往西离开。
+
+ 自动存档．．．．．．存档完毕 
+【系统】信息记录精灵：信息记录精灵已启动。
+【闲聊】肥猫啊(Starfish)：o
+东方的天空上，太阳已经高高的挂起。
+
+【新手】肥猫啊(Starfish)：o
+【闲聊】肥猫啊(Starfish)：o
+你说道：en
+[/]开发站# 
+【新手】肥猫啊(Starfish)：en
+妖雪走了过来。
+妖雪走了过来。
+无聊少年走了过来。
+妖雪往西离开。
+妖雪往东离开。
+妖雪走了过来。
+妖雪走了过来。
+【系统】李逍(lix)由223.198.88.75(海南省海口市 电信)重新连线进入。
+【新手】李逍(Lix)：o
+【闲聊】李逍(Lix)：o
+妖雪往上离开。
+妖雪走了过来。
+正午到了，太阳当空，气温逐渐增高。
+
+妖雪往西离开。
+无聊少年往东离开。
+妖雪往东离开。
+妖雪走了过来。
+妖雪走了过来。
+妖雪往西离开。
+妖雪往西离开。
+妖雪走了过来。
+【闲聊】李逍(Lix)：en
+妖雪走了过来。
+妖雪急急忙忙地离开了。
+无聊少年走了过来。
+阵阵寒风吹来，你只觉得眼眸都冷得有些酸痛。
+
+你不由自主的打了一个寒战！
+
+fystatus:kee:20124/30774/30774
+无聊少年往上离开。
+妖雪往北离开。
+天空中太阳开始西落，阳光逐渐倾斜。
+
+无聊少年走了过来。
+无聊少年往北离开。
+妖雪走了过来。
+妖雪往东离开。
+重新编译 /adm/daemons/channeld.c：编译时段错误：/adm/daemons/channeld.c line 694: End of file in text block
+
+编译时段错误：/adm/daemons/channeld.c line 694: syntax error
+
+错误讯息被拦截: 
+执行时段错误：*Error in loading object '/adm/daemons/channeld'
+
+程式：/cmds/wiz/update.c 第 63 行
+物件: /cmds/wiz/update
+呼叫来自：/feature/command.c 的 command_hook() 第 45 行，物件： /obj/user#205836 ("肥猫啊")
+呼叫来自：/cmds/wiz/update.c 的 main() 第 63 行，物件： /cmds/wiz/update
+呼叫来自：/cmds/wiz/update.c 的 CATCH() 第 63 行，物件： /cmds/wiz/update
+发生错误：
+*Error in loading object '/adm/daemons/channeld'
+
+[/]开发站# 
+执行时段错误：*Error in loading object '/adm/daemons/channeld'
+
+程式：/feature/command.c 第 51 行
+物件: /d/city/npc/hunhun#14065
+呼叫来自：/std/char.c 的 heart_beat() 第 820 行，物件： /d/city/npc/hunhun#14065 ("小混混")
+呼叫来自：/std/char/npc.c 的 chat() 第 224 行，物件： /d/city/npc/hunhun#14065 ("小混混")
+呼叫来自：/ 的 () 第 0 行，物件： /d/city/npc/hunhun#14065 ("小混混")
+呼叫来自：/std/char/npc.c 的 random_move() 第 265 行，物件： /d/city/npc/hunhun#14065 ("小混混")
+呼叫来自：/feature/command.c 的 command_hook() 第 51 行，物件： /d/city/npc/hunhun#14065 ("小混混")
+
+执行时段错误：*Error in loading object '/adm/daemons/channeld'
+
+程式：/feature/command.c 第 51 行
+物件: /d/fy/npc/younggirl#4453
+呼叫来自：/std/char.c 的 heart_beat() 第 820 行，物件： /d/fy/npc/younggirl#4453 ("大辫子姑娘")
+呼叫来自：/std/char/npc.c 的 chat() 第 224 行，物件： /d/fy/npc/younggirl#4453 ("大辫子姑娘")
+呼叫来自：/ 的 () 第 0 行，物件： /d/fy/npc/younggirl#4453 ("大辫子姑娘")
+呼叫来自：/d/fy/npc/younggirl.c 的 random_action() 第 37 行，物件： /d/fy/npc/younggirl#4453 ("大辫子姑娘")
+呼叫来自：/feature/command.c 的 command_hook() 第 51 行，物件： /d/fy/npc/younggirl#4453 ("大辫子姑娘")
+
+执行时段错误：*Error in loading object '/adm/daemons/channeld'
+
+程式：/feature/command.c 第 51 行
+物件: /d/fy/npc/younggirl#4451
+呼叫来自：/std/char.c 的 heart_beat() 第 820 行，物件： /d/fy/npc/younggirl#4451 ("大辫子姑娘")
+呼叫来自：/std/char/npc.c 的 chat() 第 224 行，物件： /d/fy/npc/younggirl#4451 ("大辫子姑娘")
+呼叫来自：/ 的 () 第 0 行，物件： /d/fy/npc/younggirl#4451 ("大辫子姑娘")
+呼叫来自：/d/fy/npc/younggirl.c 的 random_action() 第 34 行，物件： /d/fy/npc/younggirl#4451 ("大辫子姑娘")
+呼叫来自：/feature/command.c 的 command_hook() 第 51 行，物件： /d/fy/npc/younggirl#4451 ("大辫子姑娘")
+
+执行时段错误：*Error in loading object '/adm/daemons/channeld'
+
+程式：/feature/command.c 第 51 行
+物件: /d/bat/npc/bianfu2#23652
+呼叫来自：/std/char.c 的 heart_beat() 第 820 行，物件： /d/bat/npc/bianfu2#23652 ("七彩蝙蝠")
+呼叫来自：/std/char/npc.c 的 chat() 第 224 行，物件： /d/bat/npc/bianfu2#23652 ("七彩蝙蝠")
+呼叫来自：/ 的 () 第 0 行，物件： /d/bat/npc/bianfu2#23652 ("七彩蝙蝠")
+呼叫来自：/std/char/npc.c 的 random_move() 第 265 行，物件： /d/bat/npc/bianfu2#23652 ("七彩蝙蝠")
+呼叫来自：/feature/command.c 的 command_hook() 第 51 行，物件： /d/bat/npc/bianfu2#23652 ("七彩蝙蝠")
+
+执行时段错误：*Error in loading object '/adm/daemons/channeld'
+
+程式：/feature/command.c 第 51 行
+物件: /d/bat/npc/bianfu2#23652
+呼叫来自：/std/char.c 的 heart_beat() 第 820 行，物件： /d/bat/npc/bianfu2#23652 ("七彩蝙蝠")
+呼叫来自：/std/char/npc.c 的 chat() 第 224 行，物件： /d/bat/npc/bianfu2#23652 ("七彩蝙蝠")
+呼叫来自：/ 的 () 第 0 行，物件： /d/bat/npc/bianfu2#23652 ("七彩蝙蝠")
+呼叫来自：/std/char/npc.c 的 random_move() 第 265 行，物件： /d/bat/npc/bianfu2#23652 ("七彩蝙蝠")
+呼叫来自：/feature/command.c 的 command_hook() 第 51 行，物件： /d/bat/npc/bianfu2#23652 ("七彩蝙蝠")
+
+执行时段错误：*Error in loading object '/adm/daemons/channeld'
+
+程式：/feature/command.c 第 51 行
+物件: /d/city/npc/hunhun#14065
+呼叫来自：/std/char.c 的 heart_beat() 第 820 行，物件： /d/city/npc/hunhun#14065 ("小混混")
+呼叫来自：/std/char/npc.c 的 chat() 第 224 行，物件： /d/city/npc/hunhun#14065 ("小混混")
+呼叫来自：/ 的 () 第 0 行，物件： /d/city/npc/hunhun#14065 ("小混混")
+呼叫来自：/std/char/npc.c 的 random_move() 第 265 行，物件： /d/city/npc/hunhun#14065 ("小混混")
+呼叫来自：/feature/command.c 的 command_hook() 第 51 行，物件： /d/city/npc/hunhun#14065 ("小混混")
+
+执行时段错误：*Error in loading object '/adm/daemons/channeld'
+
+程式：/feature/command.c 第 51 行
+物件: /d/wudang/npc/xiaotong#4860
+呼叫来自：/std/char.c 的 heart_beat() 第 820 行，物件： /d/wudang/npc/xiaotong#4860 ("陶包包")
+呼叫来自：/std/char/npc.c 的 chat() 第 224 行，物件： /d/wudang/npc/xiaotong#4860 ("陶包包")
+呼叫来自：/ 的 () 第 0 行，物件： /d/wudang/npc/xiaotong#4860 ("陶包包")
+呼叫来自：/std/char/npc.c 的 random_move() 第 265 行，物件： /d/wudang/npc/xiaotong#4860 ("陶包包")
+呼叫来自：/feature/command.c 的 command_hook() 第 51 行，物件： /d/wudang/npc/xiaotong#4860 ("陶包包")
+
+执行时段错误：*Error in loading object '/adm/daemons/channeld'
+
+程式：/feature/command.c 第 51 行
+物件: /d/huanggong/npc/pingwei#64927
+呼叫来自：/std/char.c 的 heart_beat() 第 820 行，物件： /d/huanggong/npc/pingwei#64927 ("平威")
+呼叫来自：/std/char/npc.c 的 chat() 第 224 行，物件： /d/huanggong/npc/pingwei#64927 ("平威")
+呼叫来自：/ 的 () 第 0 行，物件： /d/huanggong/npc/pingwei#64927 ("平威")
+呼叫来自：/std/char/npc.c 的 random_move() 第 265 行，物件： /d/huanggong/npc/pingwei#64927 ("平威")
+呼叫来自：/feature/command.c 的 command_hook() 第 51 行，物件： /d/huanggong/npc/pingwei#64927 ("平威")
+
+执行时段错误：*Error in loading object '/adm/daemons/channeld'
+
+程式：/feature/command.c 第 51 行
+物件: /obj/npc/trashcan#183325
+呼叫来自：/std/char.c 的 heart_beat() 第 845 行，物件： /obj/npc/trashcan#183325 ("李守疆")
+呼叫来自：/std/char/npc.c 的 scan() 第 771 行，物件： /obj/npc/trashcan#183325 ("李守疆")
+呼叫来自：/std/char/npc.c 的 chat() 第 224 行，物件： /obj/npc/trashcan#183325 ("李守疆")
+呼叫来自：/ 的 () 第 0 行，物件： /obj/npc/trashcan#183325 ("李守疆")
+呼叫来自：/obj/npc/trashcan.c 的 randommove() 第 110 行，物件： /obj/npc/trashcan#183325 ("李守疆")
+呼叫来自：/feature/command.c 的 command_hook() 第 51 行，物件： /obj/npc/trashcan#183325 ("李守疆")
+
+执行时段错误：*Error in loading object '/adm/daemons/channeld'
+
+程式：/feature/command.c 第 51 行
+物件: /d/city/npc/hunhun#14065
+呼叫来自：/std/char.c 的 heart_beat() 第 820 行，物件： /d/city/npc/hunhun#14065 ("小混混")
+呼叫来自：/std/char/npc.c 的 chat() 第 224 行，物件： /d/city/npc/hunhun#14065 ("小混混")
+呼叫来自：/ 的 () 第 0 行，物件： /d/city/npc/hunhun#14065 ("小混混")
+呼叫来自：/std/char/npc.c 的 random_move() 第 265 行，物件： /d/city/npc/hunhun#14065 ("小混混")
+呼叫来自：/feature/command.c 的 command_hook() 第 51 行，物件： /d/city/npc/hunhun#14065 ("小混混")
+
+执行时段错误：*Error in loading object '/adm/daemons/channeld'
+
+程式：/adm/daemons/quest/search.c 第 56 行
+物件: /adm/daemons/quest/search
+呼叫来自：/adm/daemons/quest/search.c 的 heart_beat() 第 66 行，物件： /adm/daemons/quest/search
+呼叫来自：/adm/daemons/quest/search.c 的 start_quest() 第 56 行，物件： /adm/daemons/quest/search
+
+执行时段错误：*Error in loading object '/adm/daemons/channeld'
+
+程式：/feature/command.c 第 51 行
+物件: /d/bat/npc/bianfu2#23652
+呼叫来自：/std/char.c 的 heart_beat() 第 820 行，物件： /d/bat/npc/bianfu2#23652 ("七彩蝙蝠")
+呼叫来自：/std/char/npc.c 的 chat() 第 224 行，物件： /d/bat/npc/bianfu2#23652 ("七彩蝙蝠")
+呼叫来自：/ 的 () 第 0 行，物件： /d/bat/npc/bianfu2#23652 ("七彩蝙蝠")
+呼叫来自：/std/char/npc.c 的 random_move() 第 265 行，物件： /d/bat/npc/bianfu2#23652 ("七彩蝙蝠")
+呼叫来自：/feature/command.c 的 command_hook() 第 51 行，物件： /d/bat/npc/bianfu2#23652 ("七彩蝙蝠")
+
+执行时段错误：*Error in loading object '/adm/daemons/channeld'
+
+程式：/feature/command.c 第 51 行
+物件: /d/huanggong/npc/dongjinkui#57472
+呼叫来自：/std/char.c 的 heart_beat() 第 820 行，物件： /d/huanggong/npc/dongjinkui#57472 ("董金魁")
+呼叫来自：/std/char/npc.c 的 chat() 第 224 行，物件： /d/huanggong/npc/dongjinkui#57472 ("董金魁")
+呼叫来自：/ 的 () 第 0 行，物件： /d/huanggong/npc/dongjinkui#57472 ("董金魁")
+呼叫来自：/std/char/npc.c 的 random_move() 第 265 行，物件： /d/huanggong/npc/dongjinkui#57472 ("董金魁")
+呼叫来自：/feature/command.c 的 command_hook() 第 51 行，物件： /d/huanggong/npc/dongjinkui#57472 ("董金魁")
+
+执行时段错误：*Error in loading object '/adm/daemons/channeld'
+
+程式：/feature/command.c 第 51 行
+物件: /d/xinjiang/npc/trader#21803
+呼叫来自：/std/char.c 的 heart_beat() 第 820 行，物件： /d/xinjiang/npc/trader#21803 ("吐鲁番商人")
+呼叫来自：/std/char/npc.c 的 chat() 第 224 行，物件： /d/xinjiang/npc/trader#21803 ("吐鲁番商人")
+呼叫来自：/ 的 () 第 0 行，物件： /d/xinjiang/npc/trader#21803 ("吐鲁番商人")
+呼叫来自：/std/char/npc.c 的 random_move() 第 265 行，物件： /d/xinjiang/npc/trader#21803 ("吐鲁番商人")
+呼叫来自：/feature/command.c 的 command_hook() 第 51 行，物件： /d/xinjiang/npc/trader#21803 ("吐鲁番商人")
+
+执行时段错误：*Error in loading object '/adm/daemons/channeld'
+
+程式：/adm/daemons/quest/explore.c 第 332 行
+物件: /adm/daemons/quest/explore
+呼叫来自：/adm/daemons/quest/explore.c 的 heart_beat() 第 342 行，物件： /adm/daemons/quest/explore
+呼叫来自：/adm/daemons/quest/explore.c 的 start_quest() 第 332 行，物件： /adm/daemons/quest/explore
+
+执行时段错误：*Error in loading object '/adm/daemons/channeld'
+
+程式：/adm/daemons/quest/search.c 第 56 行
+物件: /adm/daemons/quest/search
+呼叫来自：/adm/daemons/quest/search.c 的 heart_beat() 第 66 行，物件： /adm/daemons/quest/search
+呼叫来自：/adm/daemons/quest/search.c 的 start_quest() 第 56 行，物件： /adm/daemons/quest/search
+
+执行时段错误：*Error in loading object '/adm/daemons/channeld'
+
+程式：/feature/command.c 第 51 行
+物件: /d/xinjiang/npc/trader#21803
+呼叫来自：/std/char.c 的 heart_beat() 第 820 行，物件： /d/xinjiang/npc/trader#21803 ("吐鲁番商人")
+呼叫来自：/std/char/npc.c 的 chat() 第 224 行，物件： /d/xinjiang/npc/trader#21803 ("吐鲁番商人")
+呼叫来自：/ 的 () 第 0 行，物件： /d/xinjiang/npc/trader#21803 ("吐鲁番商人")
+呼叫来自：/std/char/npc.c 的 random_move() 第 265 行，物件： /d/xinjiang/npc/trader#21803 ("吐鲁番商人")
+呼叫来自：/feature/command.c 的 command_hook() 第 51 行，物件： /d/xinjiang/npc/trader#21803 ("吐鲁番商人")
+
+执行时段错误：*Error in loading object '/adm/daemons/channeld'
+
+程式：/feature/command.c 第 51 行
+物件: /d/xinjiang/npc/trader#21811
+呼叫来自：/std/char.c 的 heart_beat() 第 820 行，物件： /d/xinjiang/npc/trader#21811 ("吐鲁番商人")
+呼叫来自：/std/char/npc.c 的 chat() 第 224 行，物件： /d/xinjiang/npc/trader#21811 ("吐鲁番商人")
+呼叫来自：/ 的 () 第 0 行，物件： /d/xinjiang/npc/trader#21811 ("吐鲁番商人")
+呼叫来自：/std/char/npc.c 的 random_move() 第 265 行，物件： /d/xinjiang/npc/trader#21811 ("吐鲁番商人")
+呼叫来自：/feature/command.c 的 command_hook() 第 51 行，物件： /d/xinjiang/npc/trader#21811 ("吐鲁番商人")
+重新编译 /adm/daemons/channeld.c：成功！
+[/]开发站# 
+【闲聊】肥猫啊(Starfish)：o
+【新手】肥猫啊(Starfish)：o
+【新手】肥猫啊(Starfish)：o
+有人从别处( 223.198.88.75 )连线取代你所控制的人物。
+ 
+
+
+MMMMMMMMMMMM'`   MMMMMMMMMMMMMMMMMMM'"~   _gMMMMMMMMMMMMMMMMMMMMMMM8''MMMMMMMMMMMMMMMMMMF~{M  #'~MM
+MMMMMMMMP"  _,  _MMMMMMMMMMMMMMMP'    _g  +''"~    ~"MMMMMMMM' $MMh_  {MMMMMMMMMMMMMMMPM+      _dMM
+MMMMMM
+MMMM] MM'~  2}  MMMMMMMMMMMMMMMM'MMF'gM  MMMMK__mMMMMMMMMMM'_MMMMM'~ MMMMMMMMMMMMMMMMMP ~ "  mMMMMM
+MMMMJ M    *'#  $MMMMMMMMMMMMM'  ' gMM] {MM  [MMMMMMMMMMMF qMMT"~   _MM'~MMMMMMMMMM~ _gF  _  _gMMMM
+MMMM]  "'    _  @MMMMMMMMMMMM'   qM~VMP MF  qMMMMMMMMMMP~  MMMp,   7'` _gMMMMMMMMMhqM8   __   {MMMM
+MMMMPj, '    M,  MMMMMMM'(MMJ  _MMM, _L @@MMMMMMMMMMMMM   $MMMP`  ,   MMMMMMMMMMMMMF`_d  #   MMMMMM
+MMMF_M
+MMMqMMMMP  '  ~M,  "TMM}  MMMMMMMMMMMMM  ~"MMMMMMMMMM  q,  [' g
+MM'MMP''`  _@__gMm_   ``  MMMMMMMMMMMMMM  _MMMMMMMMML gM
+M# MMMpgMMMMMMMMMMMMx_  _gMMMMMMMMMMMMM#  """MMMMMMMMMMMML  MMMMM@MMMMMMMMMMMMMMMMMMMMM, ML  ~  {MM
+MLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm__qmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#_[MMMMmMMMM
+        
+
+
+　　　　　　　　－　　＝　　风　　云　　２　　０　　１　　４　　＝　　－
+
+　　　　　　　　　　　　　　　　　　　＊　总　站　＊　　
+        
+        
+        
+                                狂风一翻滚，
+                                                何处不是云。
+        
+　　　　　　　             风云2014家页：http://www.fengyun2014.com/
+　　　　　　　             风云2014总站地址 fy.fengyun2014.com 端口6000
+
+　　　　　　　             玩家交流QQ群号：  371590224
+
+风云2014（Fengyun version 6.0）已经运行了一天八小时二十四分五十七秒。
+风云时间：辛丑年十月十二日卯时四刻。
+当地时间：二零一五年十二月十八日零点三十一分 星期五。
+风云世界当前Quest的奖励为：200％
+
+您所在的地址(223.198.88.75)还允许有十一位玩家连线。
+
+使用风云通行证登录请输入１，直接用人物ＩＤ登录请输入０：
+
+您的英文名字：
+此英文名字已被使用，请输入此帐号的密码：
+您要将另一个连线中的相同人物赶出去，取而代之吗？？(y/n)
+重新连线完毕。
+【系统】肥猫啊(starfish)由223.198.88.75(海南省海口市 电信)重新连线进入。
+fystatus:kee:19424/30774/30774
+即将开始检测你的客户端对MXP的支持程度。如果5s中之内没有反应，代表你使用的客户端完全不支持MXP,请按回车进入普通模式。
+推荐使用Zmud,CMud和MushClient。请访问http://pkuxkx.net/forum/thread-9684-1-1.html学习如何配置MXP客户端。
+
+你的客户端支持MXP。
+[/]开发站# 
+【闲聊】肥猫啊(Starfish)：o
+[/]开发站# 东方的天空上，太阳已经高高的挂起。
+
+妖雪往西离开。
+无聊少年走了过来。
+fystatus:sen:10174/10324/10324
+
+◎ 「风云2014开发」目前在线玩家有：
+─────────────────────────────────────────────────
+* 　♂【  天  神  】 普通百姓 李逍(Lix) 
+  HC♂【  天  神  】 肥猫啊(Starfish) 
+─────────────────────────────────────────────────
+共有二位使用者连线中，列出了二位，系统负担：0.02 cmds/s, 793.33 comp lines/s
+　　　*发呆　　　#断线　　　@鬼魂　　　♀女性　　　♂男性　　　HC solo玩家
+
+
+[/]开发站# 
+【闲聊】肥猫啊(Starfish)：o
+重新编译 /adm/daemons/channeld.c：成功！
+[/]开发站# 
+请不要多次重复相同的讯息。
+[/]开发站# 
+【闲聊】肥猫啊(Starfish)：en
+[/]开发站# 无聊少年往南离开。
+无聊少年往上离开。
+有人从别处( 223.198.88.75 )连线取代你所控制的人物。
+ 
+
+
+MMMMMMMMMMMM'`   MMMMMMMMMMMMMMMMMMM'"~   _gMMMMMMMMMMMMMMMMMMMMMMM8''MMMMMMMMMMMMMMMMMMF~{M  #'~MM
+MMMMMMMMP"  _,  _MMMMMMMMMMMMMMMP'    _g  +''"~    ~"MMMMMMMM' $MMh_  {MMMMMMMMMMMMMMMPM+      _dMM
+MMMMMM
+MMMM] MM'~  2}  MMMMMMMMMMMMMMMM'MMF'gM  MMMMK__mMMMMMMMMMM'_MMMMM'~ MMMMMMMMMMMMMMMMMP ~ "  mMMMMM
+MMMMJ M    *'#  $MMMMMMMMMMMMM'  ' gMM] {MM  [MMMMMMMMMMMF qMMT"~   _MM'~MMMMMMMMMM~ _gF  _  _gMMMM
+MMMM]  "'    _  @MMMMMMMMMMMM'   qM~VMP MF  qMMMMMMMMMMP~  MMMp,   7'` _gMMMMMMMMMhqM8   __   {MMMM
+MMMMPj, '    M,  MMMMMMM'(MMJ  _MMM, _L @@MMMMMMMMMMMMM   $MMMP`  ,   MMMMMMMMMMMMMF`_d  #   MMMMMM
+MMMF_M
+MMMqMMMMP  '  ~M,  "TMM}  MMMMMMMMMMMMM  ~"MMMMMMMMMM  q,  [' g
+MM'MMP''`  _@__gMm_   ``  MMMMMMMMMMMMMM  _MMMMMMMMML gM
+M# MMMpgMMMMMMMMMMMMx_  _gMMMMMMMMMMMMM#  """MMMMMMMMMMMML  MMMMM@MMMMMMMMMMMMMMMMMMMMM, ML  ~  {MM
+MLMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm__qmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM#_[MMMMmMMMM
+        
+
+
+　　　　　　　　－　　＝　　风　　云　　２　　０　　１　　４　　＝　　－
+
+　　　　　　　　　　　　　　　　　　　＊　总　站　＊　　
+        
+        
+        
+                                狂风一翻滚，
+                                                何处不是云。
+        
+　　　　　　　             风云2014家页：http://www.fengyun2014.com/
+　　　　　　　             风云2014总站地址 fy.fengyun2014.com 端口6000
+
+　　　　　　　             玩家交流QQ群号：  371590224
+
+风云2014（Fengyun version 6.0）已经运行了一天八小时二十六分十六秒。
+风云时间：辛丑年十月十二日辰时三刻。
+当地时间：二零一五年十二月十八日零点三十三分 星期五。
+风云世界当前Quest的奖励为：200％
+
+您所在的地址(223.198.88.75)还允许有十一位玩家连线。
+
+使用风云通行证登录请输入１，直接用人物ＩＤ登录请输入０：
+
+您的英文名字：
+此英文名字已被使用，请输入此帐号的密码：
+您要将另一个连线中的相同人物赶出去，取而代之吗？？(y/n)
+重新连线完毕。
+fystatus:kee:29874/30774/30774
+即将开始检测你的客户端对MXP的支持程度。如果5s中之内没有反应，代表你使用的客户端完全不支持MXP,请按回车进入普通模式。
+推荐使用Zmud,CMud和MushClient。请访问http://pkuxkx.net/forum/thread-9684-1-1.html学习如何配置MXP客户端。
+
+你的客户端支持MXP。
+[/]开发站# 
+【闲聊】李逍(Lix)：en
+[/]开发站# 
+什麽？
+[/]开发站# 
+【新手】李逍(Lix)：o

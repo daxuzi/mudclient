@@ -1,0 +1,454 @@
+@w[10 Dec 17:55:05] @Y[@MNewbie@Y] @YHotah: the meditate help file says it's an automatic skill. Does that mean I get it's bonus whether standing,sitting or sleeping or do I have to manually type "meditate" to get it's benefits?
+@w[10 Dec 18:41:34] @Y[@MNewbie@Y] @YAlphaks: where to buy a boat?
+@w[10 Dec 18:42:53] @Y[@MNewbie@Y] @YAlphaks: niteglo has a raft :P
+@w[10 Dec 18:51:18] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAphelion: Hotah, meditate is checked at every tick to see if it was successful.
+@w[10 Dec 18:52:57] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAphelion: however, the help file states:  @W[C]ertain characters are able to use focus and concentration@Y when resting @Win order to increase their mana recovery rate 
+@w[10 Dec 19:17:32] @Y[@MNewbie@Y] @YPionek: Hello everyone!
+@w[10 Dec 19:38:38] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAphelion: Hey, Glatoz. Welcome to Aardwolf.
+@w[10 Dec 19:38:48] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAphelion: hi, Pionek :)
+@w[10 Dec 19:53:51] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Welcome to Aardwolf, Malakh!
+@w[10 Dec 19:53:51] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAphelion: Hi, Malakh. Welcome :)
+@w[10 Dec 19:59:27] @Y[@MNewbie@Y] @YRantar: does anyone know how to find "A Grassy Plain" in Giant's Pet Store?  All the doors are shut
+@w[10 Dec 19:59:49] @Y[@MNewbie@Y] @YRantar: well a grass snake at "a grassy plane" that is
+@w[10 Dec 20:59:45] @Y[@MNewbie@Y] @YFrostbolt: newbiewhatnewbiew
+@w[10 Dec 21:00:30] @Y[@MNewbie@Y] @YFrostbolt: what do I type to get back to dahrdahrs classee
+@w[10 Dec 21:10:13] @Y[@MNewbie@Y] @YAshuram: Hey guys, I have a quest where i need to find some pixie wings in the Temple of Doom, but Can't seem to find any... any advice?
+@w[10 Dec 21:12:43] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YMique: a quest from a questor or some area goal?
+@w[10 Dec 21:12:43] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Hm...I see two different things going on for you Ashuram...I see you're on a quest from questor...but the pixie wings are generally included in a goal, so I'm a bit confused.  Is the Pixie your Quest mob or are you doing a goal and a quest?
+@w[10 Dec 21:12:43] @Y[@MNewbie@Y] @YAshuram: It's a task I received from someone here in the Temple of Doom. I am on a quest (already completed, from the Academy) and this one task here.
+@w[10 Dec 21:12:43] @Y[@MNewbie@Y] @YAshuram: The pixie one is from a goal, the goal Believer
+@w[10 Dec 21:12:49] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Hm, you haven't complete your quest yet...better go back to the academy and quest complete...quests are on a time limit.
+@w[10 Dec 21:13:07] @Y[@MNewbie@Y] @YAshuram: Nod, will do that then and return back here once I've completed it
+@w[10 Dec 21:13:10] @Y[@MNewbie@Y] @YAshuram: Thanks
+@w[10 Dec 21:13:25] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: And while you're there in Aylor, get a potion of detect invis...pixies are often invisible!
+@w[10 Dec 21:13:45] @Y[@MNewbie@Y] @YAshuram: Ah! That might be the anwser why I can't seem to find it.. thanks!
+@w[10 Dec 21:13:50] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: that kills two birds with one stone, so to speak!!
+@w[10 Dec 21:13:54] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: No problem, glad to help!
+@w[10 Dec 21:23:56] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Welcome to Aardwolf, Proudmoore!
+@w[10 Dec 21:42:26] @Y[@MNewbie@Y] @YRantar: is the maze in gauntlet changing?
+@w[10 Dec 21:42:51] @Y[@MNewbie@Y] @YRantar: i tried to make some notes but after recall and coming back the rooms seems to be different now  :(
+@w[10 Dec 21:43:06] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Yea, that one is a random maze I believe.
+@w[10 Dec 21:43:13] @Y[@MNewbie@Y] @YRantar: great!
+@w[10 Dec 21:43:27] @Y[@MNewbie@Y] @YRantar: so how do you supposed to find a mob in here?
+@w[10 Dec 21:43:33] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Yea, I know what you mean, it is challenging.
+@w[10 Dec 21:44:19] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Well, some people use the kill all approach.  And then there's some hints in help maze solving as well.  Basically, I scan and then move to a mob I haven't seen before.  Some mobs you can scan for but some mobs in there are "no scan" too.
+@w[10 Dec 21:45:00] @Y[@MNewbie@Y] @YRantar: this shouldnt be a level 6 campaging challenge.  mapped alot of rooms for nothing
+@w[10 Dec 21:45:13] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: What is your mob?
+@w[10 Dec 21:45:26] @Y[@MNewbie@Y] @YRantar: the crawling claw
+@w[10 Dec 21:46:48] @Y[@MNewbie@Y] @YRantar: never saw it so far
+@w[10 Dec 21:46:55] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Usually what I do firsst when I have a gauntlet mob is check on the gaardian roominator (help www for the site info) and make sure the mob isn't no scan...I checked for you, and you will be able to scan for the mob.
+@w[10 Dec 21:48:12] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Then, like I said...move about the maze scanning frequently (you can use scan claw to narrow it down)...and just for example, if you see a ghost, move to the ghost, scan again for your mob and then just use regular scan to move on to something you haven't seen before.  Eventually you will find it.
+@w[10 Dec 21:48:48] @Y[@MNewbie@Y] @YRantar: ok i will, thank you
+@w[10 Dec 22:04:28] @Y[@MNewbie@Y] @YMordrax: hi all
+@w[10 Dec 22:06:13] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YMendaloth: Hey Mordrax, how is it going?
+@w[10 Dec 22:07:27] @Y[@MNewbie@Y] @YMordrax: good good, thanks
+@w[10 Dec 22:07:27] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Good morning Mordrax!
+@w[10 Dec 22:07:50] @Y[@MNewbie@Y] @YMordrax: hi =)
+@w[10 Dec 22:12:27] @Y[@MNewbie@Y] @YMordrax: can anyone make me see invisible?
+@w[10 Dec 22:13:05] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YMilquetoast: she-lion
+@w[10 Dec 22:13:17] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YMilquetoast: sorry mistype
+@w[10 Dec 22:13:19] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YMilquetoast: potsearch detect invis
+@w[10 Dec 22:14:31] @Y[@MNewbie@Y] @YMordrax: thanks
+@w[10 Dec 22:15:04] @Y[@MNewbie@Y] @YMordrax: thanks
+@w[10 Dec 22:46:09] @Y[@MNewbie@Y] @YMordrax: i don't understand, i explored more than 300 rooms and completed more than 2 quests, i can't graduate still
+@w[10 Dec 22:46:09] @Y[@MNewbie@Y] @YMordrax: any ideas?
+@w[10 Dec 22:46:09] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YMique: why  not what message do you get?
+@w[10 Dec 22:46:46] @Y[@MNewbie@Y] @YMordrax: oh... maybe it meant quests, not goals
+@w[10 Dec 22:46:55] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YMique: and you completed 2 quests you got from a questor and for which you received qp? not 2 area goals
+@w[10 Dec 22:47:49] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YMique: it said quests so yes meant quests not something else
+@w[10 Dec 22:47:49] @Y[@MNewbie@Y] @YMordrax: quests means by questmasters
+@w[10 Dec 22:47:49] @Y[@MNewbie@Y] @YMordrax: all rite, thanks
+@w[10 Dec 22:55:13] @Y[@MNewbie@Y] @YNebbitt: Hi folks, how do I set auctions to not show on screen?
+@w[10 Dec 22:55:30] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YSaraid: type auction
+@w[10 Dec 22:55:32] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YSaraid: this works for pretty much every channel
+@w[10 Dec 22:55:46] @Y[@MNewbie@Y] @YNebbitt: thanks!
+@w[10 Dec 22:55:49] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: You can turn off auction channel...I'd almost advise you not to do it though, you would miss out on a lot.  it's not usually as busy as it has been this morning.
+@w[10 Dec 22:58:51] @Y[@MNewbie@Y] @YNebbitt: I wish I could send all pages into a separate window, lol. I seem to miss things as I'm fighting sometimes.
+@w[10 Dec 22:58:51] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Are you using Aardmush?
+@w[10 Dec 22:58:51] @Y[@MNewbie@Y] @YNebbitt: Honestly? have no idea. I dl'd the ardwolf client if thats what you mean
+@w[10 Dec 22:58:51] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Yea, that's the one.  You can set all channels and such to go to communications log and then just have your fights in the main window.
+@w[10 Dec 22:58:51] @Y[@MNewbie@Y] @YNebbitt: oh, cool... um... how?
+@w[10 Dec 22:58:51] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Unless you're on a phone on Blowtorch...
+@w[10 Dec 23:01:12] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: If you're on a PC on the mushclient from the Aardwolf webpage, right click on your communication log...You may have to play around with it a little to get it the way you like it but there's options to move it all up to comm log.  They can help you out with it on tech channel if you have difficulties.
+@w[10 Dec 23:01:52] @Y[@MNewbie@Y] @YNebbitt: thank you 
+@w[10 Dec 23:02:27] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YMique: you might look at help nospam also
+@w[11 Dec 15:43:58] @Y[@MNewbie@Y] @YRot: hello, everyone
+@w[11 Dec 15:44:06] @Y[@MNewbie@Y] @YMidas: hey
+@w[11 Dec 15:44:19] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAphelion: Landy, your corpse is in Aylor, south of recall.
+@w[11 Dec 15:44:33] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAphelion: Hey, Rot. Welcome to Aardwolf.
+@w[11 Dec 15:49:46] @Y[@MNewbie@Y] @YFiggys: Greetings, introducing myself.
+@w[11 Dec 15:54:09] @Y[@MNewbie@Y] @YMoriwenne: Greets Rot and Figgys
+@w[12 Dec 10:39:54] @Y[@MNewbie@Y] @YReynel: klive is my friend
+@w[12 Dec 10:40:11] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAisling: Hello, Reynel and Klive. :)
+@w[12 Dec 10:40:11] @Y[@MNewbie@Y]: @YAdam tosses Klive up in the air, he loves it!
+@w[12 Dec 19:12:27] @Y[@MNewbie@Y] @W(@RImm@W)@Y @YAnaristos: wear boots and wear cloak (if those are the keywords)
+@w[12 Dec 19:12:27] @Y[@MNewbie@Y] @W(@RImm@W)@Y @YAnaristos: to show you: first type keep skin
+@w[12 Dec 19:12:27] @Y[@MNewbie@Y] @W(@RImm@W)@Y @YAnaristos: that will save your viper skin from accidental loss.
+@w[12 Dec 19:12:27] @Y[@MNewbie@Y] @W(@RImm@W)@Y @YAnaristos: then type wear skin
+@w[12 Dec 19:12:44] @Y[@MNewbie@Y] @W(@RImm@W)@Y @YAnaristos: the viper skins probably the best item in your inventory right now.
+@w[12 Dec 19:13:15] @Y[@MNewbie@Y] @W(@RImm@W)@Y @YAnaristos: Frostbolt?
+@w[12 Dec 19:17:44] @Y[@MNewbie@Y] @YFrostbolt: Help
+@w[12 Dec 19:19:44] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YWarBurger: yes frostbolt?
+@w[13 Dec 00:32:06] @Y[@MNewbie@Y] @YRavinmia: i'll kiss anyone who can help me cheat on my geo test
+@w[13 Dec 00:32:06] @Y[@MNewbie@Y]: @YRahone falls down laughing.
+@w[13 Dec 00:32:06] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAdam: no cheating :)
+@w[13 Dec 00:32:06] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Best not to cheat...maybe we can help you out with a hint though!
+@w[13 Dec 00:32:06] @Y[@MNewbie@Y] @YMujaro: How can you kiss anybody, you're intangible!
+@w[13 Dec 00:32:06] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Check out the blackboard and there's a hint to help you find the answer.
+@w[13 Dec 00:32:37] @Y[@MNewbie@Y] @YRavinmia: thanks ,  unfortinatily that tip is only worth a hand shake 
+@w[13 Dec 00:34:20] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: That's all any hint is worth to me, rofl!
+@w[13 Dec 00:34:20] @Y[@MNewbie@Y] @YRavinmia: oops thats wrong hold on
+@w[13 Dec 00:36:27] @Y[@MNewbie@Y] @YRavinmia: wait
+@w[13 Dec 00:36:27] @Y[@MNewbie@Y] @YRavinmia: how do you shake someones hand 
+@w[13 Dec 00:36:27] @Y[@MNewbie@Y]: @YAdam shakes Ravinmia's hand.
+@w[13 Dec 00:36:27] @Y[@MNewbie@Y] @YRedhare: shake bob
+@w[13 Dec 00:36:27] @Y[@MNewbie@Y] @YRedhare: since I assume that's what you're doing, because I got stuck there too
+@w[13 Dec 00:36:27] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: It's shakes to shake a hand.
+@w[13 Dec 00:36:27] @Y[@MNewbie@Y] @YRavinmia: whoohoo 
+@w[13 Dec 00:36:27] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Nah, she's just trying to shake our hands this time!  I'd remember that for future reference though Ravinmia, you're going to run into it again!
+@w[13 Dec 00:39:20] @Y[@MNewbie@Y]: @YRavinmia nods
+@w[13 Dec 00:39:26] @Y[@MNewbie@Y] @YRahone: Er, I found an Aarchaeology piece, what's this for?
+@w[13 Dec 00:39:28] @Y[@MNewbie@Y] @YRedhare: whats the command to retrieve corpse?
+@w[13 Dec 00:40:00] @Y[@MNewbie@Y] @YRahone: It was all colorful as ever
+@w[13 Dec 00:40:00] @Y[@MNewbie@Y] @YEro: is there a way to find shops OUTSIDE of Aylor
+@w[13 Dec 00:40:00] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAdam: the aarch items are an ongoing game. See help aarch items
+@w[13 Dec 00:42:07] @Y[@MNewbie@Y] @YRahone: Oh awesome.
+@w[13 Dec 00:42:07] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAdam: at your corpse you type get all corpse Redhare
+@w[13 Dec 00:42:07] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAdam: you should see it dissolve when you have all the items
+@w[13 Dec 00:42:07] @Y[@MNewbie@Y] @YRedhare: thanks
+@w[13 Dec 00:42:07] @Y[@MNewbie@Y] @YRedhare: yeah crap, can I get some help with a retrieval?
+@w[13 Dec 00:44:24] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YTanaya: you got someone redhare?
+@w[13 Dec 00:44:24] @Y[@MNewbie@Y] @YRedhare: yeah
+@w[13 Dec 00:44:24] @Y[@MNewbie@Y] @YRedhare: Adam is helping me
+@w[13 Dec 00:44:24] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YTanaya: okay
+@w[13 Dec 00:46:46] @Y[@MNewbie@Y] @YRavinmia: can other players kill me
+@w[13 Dec 00:46:46] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAdam: not unless you join a PK clan
+@w[13 Dec 00:46:46] @Y[@MNewbie@Y] @YMujaro: Generally, no.
+@w[13 Dec 00:46:46] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: No, Ravinmia...Player killing is only allowed in the PK system...unless you interfere in someone elses fight (by healing an opponent or some such) they won't be able to kill you.
+@w[14 Dec 16:13:20] @Y[@MNewbie@Y] @YOwen: What are some high (pref 200/200) regen rooms near recall?
+@w[14 Dec 16:15:16] @Y[@MNewbie@Y] @YFrostbolt: how can I see my armor that I.have on.  I know its not inv' 
+@w[14 Dec 16:15:22] @Y[@MNewbie@Y] @YOwen: equipment
+@w[14 Dec 16:23:09] @Y[@MNewbie@Y] @YFrostbolt: I uust boug
+@w[14 Dec 16:23:52] @Y[@MNewbie@Y] @YFrostbolt: I bought bracers.  newbhow do.I. equip them.
+@w[14 Dec 16:24:19] @Y[@MNewbie@Y] @YFrostbolt: hello
+@w[14 Dec 16:24:26] @Y[@MNewbie@Y] @YOwen: wear bracer
+@w[14 Dec 16:24:58] @Y[@MNewbie@Y] @YFrostbolt: won.t work.
+@w[14 Dec 16:27:45] @Y[@MNewbie@Y] @YFrostbolt: I bought bracersn 
+@w[14 Dec 16:27:54] @Y[@MNewbie@Y] @YOwen: What are they called?
+@w[14 Dec 16:29:44] @Y[@MNewbie@Y] @YFrostbolt: I.bought bracers.  I say wear bracers, it tells me I xont have them.I  am stumped.  I want to buy.mor e armor and such.
+@w[14 Dec 16:30:35] @Y[@MNewbie@Y] @YFrostbolt: I am worried that I will.waste my momey.
+@w[14 Dec 16:30:58] @Y[@MNewbie@Y] @YSolemn: With the keyword that you are using for the bracers are you able to drop them and pick them up?
+@w[14 Dec 16:31:26] @Y[@MNewbie@Y] @YPokkett: Is anyone available to help me retrieve my body?
+@w[14 Dec 16:31:34] @Y[@MNewbie@Y] @YSzen: or try using the first word of the bracer's name
+@w[14 Dec 16:31:36] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YTrurien: I am, Pokkett. Where did you die?
+@w[14 Dec 16:31:54] @Y[@MNewbie@Y] @YPokkett: Kingsholm
+@w[14 Dec 16:32:19] @Y[@MNewbie@Y] @YPokkett: "0,45,3" Royal Corridor
+@w[14 Dec 16:32:24] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YTrurien: Pokkett, please meet me at the start of the area, thank you :)
+@w[14 Dec 16:36:16] @Y[@MNewbie@Y] @YFrostbolt: I hate texting.  
+@w[14 Dec 16:36:28] @Y[@MNewbie@Y] @YFrostbolt: help
+@w[14 Dec 16:36:35] @Y[@MNewbie@Y] @YSolemn: But you're playing a text based game >.>
+@w[14 Dec 16:37:02] @Y[@MNewbie@Y] @YFrostbolt: yeah yeah , it would beebwoul
+@w[14 Dec 16:37:05] @Y[@MNewbie@Y] @YSolemn: come 1 up from recall, let's figure this out
+@w[14 Dec 16:37:14] @Y[@MNewbie@Y] @YSolemn: Indeed, beebwoul
+@w[14 Dec 16:37:57] @Y[@MNewbie@Y] @YFrostbolt: solemn you are.funny indeed
+@w[14 Dec 16:38:48] @Y[@MNewbie@Y] @YFrostbolt: okay I am here..
+@w[14 Dec 16:39:39] @Y[@MNewbie@Y] @YFrostbolt: I think they were 5 .
+@w[14 Dec 16:40:20] @Y[@MNewbie@Y] @YFrostbolt: it keeps saying I don.t have them
+@w[14 Dec 16:41:13] @Y[@MNewbie@Y] @YOwen: Which bracers did you buy
+@w[14 Dec 16:41:43] @Y[@MNewbie@Y] @YSolemn: Please lead me to this shady merchant that sells bracers that aren't there.
+@w[14 Dec 16:42:58] @Y[@MNewbie@Y] @YFrostbolt: no thenoy don.tyt.  uuuuhh if I were say shopping for vladia would it make a difference. 
+@w[14 Dec 16:43:10] @Y[@MNewbie@Y] @YBeldon: hey all
+@w[14 Dec 16:43:38] @Y[@MNewbie@Y] @YSzen: ...i think you gave the bracer to vladia?
+@w[14 Dec 16:43:43] @Y[@MNewbie@Y] @YSolemn: Good morning Szen
+@w[14 Dec 16:43:49] @Y[@MNewbie@Y] @YSolemn: Good morning and Beldon
+@w[14 Dec 16:44:08] @Y[@MNewbie@Y] @YFrostbolt: I think I figured iut.my problem.  I a
+@w[14 Dec 16:44:08] @Y[@MNewbie@Y] @YSolemn: So its likely a shop around here.
+@w[14 Dec 16:44:23] @Y[@MNewbie@Y] @YSolemn: What is the name of this gear?
+@w[14 Dec 17:15:44] @Y[@MNewbie@Y] @YOwen: How do I configure my combat output...IE instead of showing each line as a spell cast summarize into one.
+@w[14 Dec 17:16:40] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YWarBurger: type damage
+@w[14 Dec 17:16:49] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YWarBurger: the options will be there =)
+@w[14 Dec 17:16:50] @Y[@MNewbie@Y]: @YOwen gallantly tips his hat to WarBurger.
+@w[14 Dec 17:17:33] @Y[@MNewbie@Y]: @YWarBurger bows deeply.
+@w[14 Dec 17:17:35] @Y[@MNewbie@Y] @YOwen: It's been years since I have had to set that...completely forgot :P
+@w[14 Dec 17:56:26] @Y[@MNewbie@Y] @YSolemn: So at level 80 I should buy an Aard Dagger, is this correct?
+@w[14 Dec 17:56:35] @Y[@MNewbie@Y] @YSolemn: It may be 81...
+@w[14 Dec 18:04:32] @Y[@MNewbie@Y] @YJurema: where do i buy potions
+@w[14 Dec 18:05:35] @Y[@MNewbie@Y] @YHotah: try 'find potion' at recall
+@w[14 Dec 18:05:57] @Y[@MNewbie@Y] @YHotah: I think that's it. I'm pretty new
+@w[14 Dec 22:51:10] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: And also, if the info's on notes is bothering you, you can turn those off...
+@w[14 Dec 22:51:28] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: by typing info notes (it's a toggle, so the same would turn it back on).
+@w[14 Dec 22:51:43] @Y[@MNewbie@Y] @YBlackwish: oh lol ty
+@w[14 Dec 22:51:52] @Y[@MNewbie@Y] @YRahone: Help Subscribe also works to learn how to withdraw from just specific boards of Notes being posted too
+@w[14 Dec 22:52:02] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: I have those off so I didn't realize what exactly you were seeing!
+@w[14 Dec 22:52:29] @Y[@MNewbie@Y] @YRahone: I'll be the SuperNewbie (Helper) over there, Acoxochitl.
+@w[14 Dec 22:52:31] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Yea, that is helpful too!
+@w[14 Dec 22:52:40] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Glad to have you Rahone!
+@w[14 Dec 22:52:47] @Y[@MNewbie@Y]: @YRahone rides up upon his warhorse and salutes with fist to heart.
+@w[14 Dec 22:53:21] @Y[@MNewbie@Y] @YBlackwish: lol :)
+@w[15 Dec 13:54:36] @CYou say 'You open xx'
+@w[15 Dec 13:54:42] @CYou say 'You open xx'
+@w[15 Dec 22:26:34] @Y[@MNewbie@Y] @YFrostbolt: thankd
+@w[17 Dec 20:29:15] @Y[@MNewbie@Y]: @Ya
+@w[17 Dec 20:29:24] @Y[@MNewbie@Y]: @Yb
+@w[17 Dec 20:31:20] @Y[@MNewbie@Y]: @Ya
+@w[17 Dec 20:31:22] @Y[@MNewbie@Y]: @Yb
+@w[17 Dec 20:36:58] @Y[@MNewbie@Y]: @Ya
+@w[17 Dec 20:39:29] @Y[@MNewbie@Y]: @Yd
+@w[17 Dec 20:40:36] @CYou say 'a'
+@w[17 Dec 20:41:35] @Y[@MNewbie@Y]: @Ye
+@w[17 Dec 20:43:55] @Y[@MNewbie@Y]: @Yf
+@w[17 Dec 20:44:19] @Y[@MNewbie@Y]: @Yen
+@w[17 Dec 20:44:32] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YShaelynne: Hi Qfuren, you need something? 
+@w[17 Dec 20:47:15] @Y[@MNewbie@Y]: @Yjust test
+@w[17 Dec 20:53:28] @CYou say 'en'
+@w[17 Dec 20:54:05] @CYou say 'e'
+@w[17 Dec 20:55:23] @CYou say 'a'
+@w[17 Dec 20:56:01] @CYou say 'd'
+@w[17 Dec 20:56:23] @CYou say 'd'
+@w[17 Dec 21:07:24] @CYou say 'f'
+@w[17 Dec 22:27:14] @Y[@MNewbie@Y]: @Ya
+@w[17 Dec 23:34:14] @CYou say 'o'
+@w[17 Dec 23:34:29] @CYou say 'o'
+@w[17 Dec 23:34:34] @Y[@MNewbie@Y]: @Yo
+@w[17 Dec 23:36:24] @Y[@MNewbie@Y] @YAdrani: what the heck?? a beggar took 25 gold so i killed him and then he only dropped 11!
+@w[17 Dec 23:36:47] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YDash: clearly he already spent it on booze
+@w[17 Dec 23:36:55] @Y[@MNewbie@Y] @YAdrani: damn that was quick
+@w[17 Dec 23:37:05] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: That happens sometimes...and some of them will take more than that!  Best to keep most of your gold in the bank and only carry what you need.
+@w[17 Dec 23:37:33] @Y[@MNewbie@Y] @YAdrani: it's ok, it's easy to get gold in this game\
+@w[17 Dec 23:37:51] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: It gets even easier too at higher levels!
+@w[17 Dec 23:38:08] @Y[@MNewbie@Y] @YAdrani: gold doesnt seem that important? I haven't found anything too expensive
+@w[17 Dec 23:38:37] @Y[@MNewbie@Y] @YReptillusMax: really? I don't think it's useful either
+@w[17 Dec 23:39:13] @Y[@MNewbie@Y] @YReptillusMax: good eqs are from qps if I'm not wromg
+@w[17 Dec 23:39:36] @Y[@MNewbie@Y] @YReptillusMax: wrong*
+@w[17 Dec 23:40:21] @Y[@MNewbie@Y]: @Ya
+@w[17 Dec 23:40:43] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: You'll use gold to buy some equipment...sometimes you might pay gold for an enchanter to enchant those items for you...or for an enchanter to enchant your aarditems...then there's Mastery and Instinct (endgame, both have helpfiles and require a lot of gold).
+@w[17 Dec 23:40:47] @Y[@MNewbie@Y]: @Yen
+@w[17 Dec 23:41:07] @Y[@MNewbie@Y]: @Yo
+@w[17 Dec 23:41:57] @Y[@MNewbie@Y] @YZommes: So is there a place where I can keep excess inv or isnt there any reason to do this?
+@w[17 Dec 23:42:18] @Y[@MNewbie@Y] @YReptillusMax: put in a bag? 
+@w[17 Dec 23:42:31] @Y[@MNewbie@Y] @YZommes: there is no carry-limit?
+@w[17 Dec 23:42:53] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: There is a weight limit.
+@w[17 Dec 23:43:13] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: and item limit.  Check out help weight.
+@w[17 Dec 23:43:55] @Y[@MNewbie@Y] @YZommes: ok so if I reach that limit I should sell stuff or throw it away? 
+@w[17 Dec 23:43:58] @Y[@MNewbie@Y] @YAdrani: a lot of mobs are telling me, damn i should have stayed in bed today, before dying, does that mean you had a strong attack?
+@w[17 Dec 23:44:45] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Yea, you want to try to manage your inventory because after remort you will go back to a similiar carrying capacity to when you started.
+@w[17 Dec 23:45:03] @Y[@MNewbie@Y] @YZommes: ok, understood
+@w[17 Dec 23:45:54] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Soooo...only keep important things, like enchanted gear, aard items, portals, goal items...and sell unneeded items often, drop and sac unneeded.  Make sure and use "keep" (help keep) to hold onto the items you don't want to sell.
+@w[17 Dec 23:46:57] @Y[@MNewbie@Y] @YZommes: ok
+@w[17 Dec 23:47:02] @Y[@MNewbie@Y] @YZommes: how do I use my lantern?
+@w[17 Dec 23:47:19] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: there are a couple of very expensive options to allow you to keep more items and I want you to be aware of them...pockets wish and vault.  But, they are both very expensive and your qp's and trivia points have better uses at this point.
+@w[17 Dec 23:47:34] @Y[@MNewbie@Y] @YZommes: ok
+@w[17 Dec 23:48:02] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Hold lantern, Zommes.  I would get a hallowed light instead of a lantern...cause lanterns burn out (sometimes at the worst possible times) and hallowed lights are permanent.
+@w[17 Dec 23:49:10] @Y[@MNewbie@Y] @YZommes: ok, cool where can I buy a hallowed light?
+@w[17 Dec 23:49:27] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: I gave you one just then!
+@w[17 Dec 23:49:45] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: They're made by players and often you can ask on barter for someone to auction and they wil.
+@w[17 Dec 23:50:09] @Y[@MNewbie@Y] @YZommes: ok, cool so there's a bit of crafting in the game aswell??
+@w[17 Dec 23:50:11] @Y[@MNewbie@Y] @YReptillusMax: is there any point on increasing instinct on dodge?
+@w[17 Dec 23:50:12] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: As long as I'm doing it...if anyone else needs a hallowed light, come 2s of recall and I will make you one as well.
+@w[17 Dec 23:50:17] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YTrurien: Something like that, Zommes.
+@w[17 Dec 23:50:36] @Y[@MNewbie@Y] @YZommes: Ok, where can I read about it?
+@w[17 Dec 23:50:45] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: There is eventually Reptillus but not right now for you...your trains will be better used training stats at this point.
+@w[17 Dec 23:52:04] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: For the newer player, it's best not to sacrifice stats for instinct...doing so will cause you to level verrrrrry slowly.  Towards the end of the remort if you can find someone to drag you to superhero from level 186, you can then deposit the unneeded trains you get for future instinct but at this point, I would train instead of trying to do instinct.
+@w[17 Dec 23:52:52] @Y[@MNewbie@Y] @YZommes: ok, understood. And I should but most points in my class-stats and a bit in the rest right?
+@w[17 Dec 23:53:29] @Y[@MNewbie@Y] @YZommes: oops I see now that I have 29 unused sessions
+@w[17 Dec 23:53:39] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: We usually advise to train all until they cost 2, without neglecting your primaries...and then after all is at 2, just train your primaries.
+@w[17 Dec 23:53:40] @Y[@MNewbie@Y] @YReptillusMax: i don't feel the difference greatly in my stat points
+@w[17 Dec 23:53:53] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: You won't at this point, Reptillus...but you will towards the end.
+@w[17 Dec 23:54:18] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: And for the amount that you'd be able to save up and buy instinct for, you wouldn't get much gain from it either.
+@w[17 Dec 23:54:54] @Y[@MNewbie@Y] @YZommes: can I rename bags?
+@w[17 Dec 23:55:21] @Y[@MNewbie@Y] @YReptillusMax: i have 0 trains and 30 practices, what should I do with them? 
+@w[17 Dec 23:55:21] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YRedryn: costs tps
+@w[17 Dec 23:55:27] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YRedryn: convert them to trains
+@w[17 Dec 23:56:08] @Y[@MNewbie@Y] @YReptillusMax: is it good to convert to trains? 
+@w[17 Dec 23:56:27] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: It costs trivia points to rename or add a keyword to a bag so i wouldn't advise doing it to any kind of bag except an aard bag.
+@w[17 Dec 23:57:23] @Y[@MNewbie@Y] @YReptillusMax: what is an aardbag? 
+@w[17 Dec 23:57:36] @Y[@MNewbie@Y] @YReptillusMax: a special bag? 
+@w[17 Dec 23:57:58] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Yea, it's one of the items you can buy with quest points...help aarditems.
+@w[18 Dec 00:07:17] @Y[@MNewbie@Y] @YZommes: how do I define different potions when wanting to drink them quickly or put in a bag?
+@w[18 Dec 00:09:13] @Y[@MNewbie@Y] @YZommes: I have 3 different potions and cant seem to put them in a bag
+@w[18 Dec 00:10:14] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: what are you typing to put them in?
+@w[18 Dec 00:10:40] @Y[@MNewbie@Y] @YZommes: i tried put <..> in <..> 
+@w[18 Dec 00:10:51] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: put itemname bag, check out help containers.
+@w[18 Dec 00:11:07] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: You're just using too many words, that's all!
+@w[18 Dec 00:11:14] @Y[@MNewbie@Y] @YZommes: oh well, I shouldnt use 'in' indeed
+@w[18 Dec 00:11:24] @Y[@MNewbie@Y]: @YZommes ) thanks
+@w[18 Dec 00:39:46] @CYou say 'o'
+@w[18 Dec 00:39:52] @CYou say 'a'
+@w[18 Dec 00:40:00] @CYou say 'en'
+@w[18 Dec 11:50:39] @CYou say 'o'
+@w[18 Dec 12:19:19] @Y[@MNewbie@Y] @YMidguardian: is it possible to give it food? hehehe he keeps on saying he wants food
+@w[18 Dec 12:19:19] @CYou say 'o'
+@w[18 Dec 12:20:52] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAphelion: hes the least of your worries :)
+@w[18 Dec 12:21:57] @Y[@MNewbie@Y] @W(@RImm@W)@Y @YAnaristos: Hey, Twinan. Welcome.
+@w[18 Dec 12:22:09] @Y[@MNewbie@Y] @W(@RImm@W)@Y @YAnaristos: Welcome, Penka :)
+@w[18 Dec 12:26:45] @Y[@MNewbie@Y] @YWigbert: the amulet is MINE!! bwahhhahaha
+@w[18 Dec 12:35:38] @Y[@MNewbie@Y] @YThaktur: a room witu a pk tag? does that mean its a player kill area?
+@w[18 Dec 12:36:41] @Y[@MNewbie@Y] @YWigbert: Reward of 1 trivia point added. woot
+@w[18 Dec 12:38:27] @CYou say 'o'
+@w[18 Dec 12:41:31] @CYou say 'o'
+@w[18 Dec 12:42:18] @Y[@MNewbie@Y] @YWigbert: I am trying to leave the lower planes  ... what does Checking for blindness flag before marking this room norecall...  mean?
+@w[18 Dec 12:43:31] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YGranola: Just a line from your mapper. It means its checking to see if you are blind, before it marks the room as being a norecall room
+@w[18 Dec 12:43:46] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YGranola: you can only exit that area from the first room that you landed in when you entered the pool
+@w[18 Dec 12:45:17] @Y[@MNewbie@Y] @YWigbert: so I am hopelessly lost then
+@w[18 Dec 12:49:50] @Y[@MNewbie@Y] @YWigbert: Well I forgot where I came in. Any tips on finding my way out of the lower planes maze pool 1?
+@w[18 Dec 12:50:31] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YGranola: The room with all of the pets in it is usually it :) Which is why there are so many pets here
+@w[18 Dec 12:50:40] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YGranola: They are used as a marker / hunting trick
+@w[18 Dec 12:51:07] @Y[@MNewbie@Y] @YWigbert: I guess I never bothered to get a pet yet
+@w[18 Dec 12:56:17] @Y[@MNewbie@Y] @YWigbert: woot! home sweet home.  thanks folks
+@w[18 Dec 12:58:50] @Y[@MNewbie@Y] @YNayla: Sho...where do I get thus damn apple?
+@w[18 Dec 12:59:42] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YGranola: for the academy?
+@w[18 Dec 12:59:57] @Y[@MNewbie@Y] @YNayla: yup!
+@w[18 Dec 13:00:05] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YGranola: Try using find all while in aylor
+@w[18 Dec 13:00:18] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YGranola: and then going to an appropriate shop that would sell apples
+@w[18 Dec 13:07:31] @Y[@MNewbie@Y] @YNayla: Yeah...where the heck is the farm?
+@w[18 Dec 13:07:37] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YGranola: runto kimr
+@w[18 Dec 13:07:55] @Y[@MNewbie@Y] @YMujaro: GO to recall point and 'runto farm'
+@w[18 Dec 13:08:20] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YGranola: you can "runto recall" while in aylor, that way you dont waste movement points
+@w[18 Dec 13:09:52] @Y[@MNewbie@Y] @YMujaro: Can also use the academy portal and then go down once.
+@w[18 Dec 13:13:02] @Y[@MNewbie@Y] @YReptillusMax: do the in-game weather and time are the same for every players? 
+@w[18 Dec 13:54:04] @CYou say 'o'
+@w[18 Dec 13:54:42] @Y[@MNewbie@Y] @YWigbert: well the mob was a Quest target..  any effect on the respawn timer?
+@w[18 Dec 13:57:07] @Y[@MNewbie@Y] @YWigbert: ahh here he be
+@w[18 Dec 13:59:53] @w[1;36mYou say 'o'[0;37m
+@w[18 Dec 14:54:57] @Y[@MNewbie@Y] @YReptillusMax: how do i show enemy health in a combat? 
+@w[18 Dec 14:55:03] @Y[@MNewbie@Y] @YReptillusMax: it used to be here
+@w[18 Dec 14:55:18] @Y[@MNewbie@Y] @YReptillusMax: but somehow it disappeared
+@w[18 Dec 14:55:27] @Y[@MNewbie@Y] @YRaisa: Umm I THINK the command is "study" without quotes?
+@w[18 Dec 14:55:46] @Y[@MNewbie@Y] @YReptillusMax: not that one
+@w[18 Dec 14:56:04] @Y[@MNewbie@Y] @YReptillusMax: the one that comes with damage dealt in a combat
+@w[18 Dec 14:56:21] @Y[@MNewbie@Y] @YReptillusMax: the one that comes with damage dealt in a combat
+@w[18 Dec 14:56:24] @Y[@MNewbie@Y] @YRaisa: I just finished that lecture and now I'm trying to figure out why the heck "run 2s8enen" to go to a level 1-5 farm for my hunting assignment isn't working
+@w[18 Dec 19:57:26] @CYou say 'a'
+@w[18 Dec 19:57:35] @CYou say 'o'
+@w[18 Dec 20:05:39] @CYou say 'o'
+@w[18 Dec 20:05:45] @CYou say 'e'
+@w[18 Dec 20:05:46] @CYou say 'e'
+@w[18 Dec 20:06:01] @CYou say 'o'
+@w[19 Dec 00:20:42] @Y[@MNewbie@Y]: @Yo
+@w[19 Dec 00:20:57] @Y[@MNewbie@Y]: @YOMG OMG OMG Aisling *lix* yoo!
+@w[19 Dec 00:21:34] @Y[@MNewbie@Y]: @YIshai falls down laughing.
+@w[19 Dec 00:21:56] @Y[@MNewbie@Y]: @YAisling winks at Ishai.
+@w[19 Dec 00:22:08] @CYou say 'en'
+@w[19 Dec 00:22:46] @Y[@MNewbie@Y]: @YIshai makes another villain see stars with her fists of fury.
+@w[19 Dec 00:23:41] @Y[@MNewbie@Y]: @wAisling goes @Goo@gOO@Goo@gOO@Goo@w at Ishai.
+@w[19 Dec 00:23:41] @CYou say 'en'
+@w[19 Dec 00:24:03] @Y[@MNewbie@Y] @YZommes: can I use a held portal multiple times?
+@w[19 Dec 00:24:27] @Y[@MNewbie@Y] @YRedhare: usually infinite times!
+@w[19 Dec 00:24:33] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAisling: Yes. :) As long as it doesn't have an indication of limited uses when you ID them. :)
+@w[19 Dec 00:24:35] @Y[@MNewbie@Y] @YZommes: great
+@w[19 Dec 00:24:37] @Y[@MNewbie@Y] @YZommes: thanks
+@w[19 Dec 00:24:54] @Y[@MNewbie@Y] @YRedhare: my daily blessing gave me 7 free lottery tickets
+@w[19 Dec 00:25:31] @Y[@MNewbie@Y] @YRedhare: that's like the equivilent of your uncle stopping by 7\11 and getting scratchers for your birthday
+@w[19 Dec 00:25:44] @Y[@MNewbie@Y]: @YAisling rapidly nods twice at Redhare, in complete agreement.
+@w[19 Dec 00:26:05] @Y[@MNewbie@Y] @YZommes: haha Redhare, accurate
+@w[19 Dec 00:26:36] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAisling: Would it be considered 'Aunt', since it's Ayla? ;)
+@w[19 Dec 00:26:56] @Y[@MNewbie@Y] @YRedhare: drunk aunt that steals all your potpurri
+@w[19 Dec 00:27:04] @Y[@MNewbie@Y]: @YAisling gasps as she realizes what Redhare did.
+@w[19 Dec 00:28:13] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAisling: But Ayla doesn't need any of that. She's already like sunshine and flowers!
+@w[19 Dec 00:28:40] @Y[@MNewbie@Y]: @YAisling stares at the sky.
+@w[19 Dec 00:29:36] @Y[@MNewbie@Y] @YSarekas: hey there, how do i open the second door in a room?
+@w[19 Dec 00:29:49] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAyasinda: did you look at Help open already?
+@w[19 Dec 00:30:13] @Y[@MNewbie@Y] @YZommes: so if I have different potions and want to put them in a bag, I have to use their id's? it seems I cannot use put healing potion bag i.e.
+@w[19 Dec 00:30:42] @Y[@MNewbie@Y] @YOannes: Maybe 'put healing bag'
+@w[19 Dec 00:30:45] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAyasinda: you can use a keyword of the potion
+@w[19 Dec 00:31:32] @Y[@MNewbie@Y] @YZommes: aaah ok, I didnt think it would work without potion, but it does. 
+@w[19 Dec 00:31:36] @Y[@MNewbie@Y] @YZommes: great thanks again
+@w[19 Dec 01:03:36] @CYou say 'tt'
+@w[19 Dec 01:04:14] @CYou say 'tt'
+@w[19 Dec 01:09:11] @CYou say 'o'
+@w[19 Dec 01:09:13] @CYou say 'o'
+@w[19 Dec 01:09:14] @CYou say 'o'
+@w[19 Dec 01:10:29] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAyasinda: Hey Wosh, welcome to aardwolf. To talk on this channel type newbie yourtext
+@w[19 Dec 13:12:11] @CYou say 'o'
+@w[19 Dec 15:11:59] @Y[@MNewbie@Y]: @Yen
+@w[19 Dec 15:12:14] @CYou say 'o'
+@w[19 Dec 15:14:47] @Y[@MNewbie@Y] @YZayroen: how do you see what you are all wearing again?
+@w[19 Dec 15:14:51] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YMetria: type 'eq'
+@w[19 Dec 15:14:57] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YUltimite: type eq
+@w[19 Dec 16:36:56] @CYou say 'o'
+@w[19 Dec 16:37:20] @Y[@MNewbie@Y] @YErgou: Thanks, Anaristos
+@w[19 Dec 16:37:21] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAphelion: Hello, Wangling. Welcome to Aardwolf.
+@w[19 Dec 16:37:40] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAphelion: that's the best water in Andalor, Ergou :)
+@w[19 Dec 16:41:16] @Y[@MNewbie@Y] @YErgou: I AFK for about 6 months,will my account be deleted?
+@w[19 Dec 16:41:25] @Y[@MNewbie@Y] @YErgou: If I AFK for about 6 months,will my account be deleted?
+@w[19 Dec 16:41:58] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YMetria: Check out 'help archive' for the details on how characters are saved (or not)
+@w[19 Dec 16:42:17] @Y[@MNewbie@Y] @W(@RImm@W)@Y @YAnaristos: 6 months is hardly any time at all, though.
+@w[19 Dec 16:43:01] @Y[@MNewbie@Y] @W(@RImm@W)@Y @YAnaristos: do read the help file, if you quit for 6 months as a level 5 sc, you may be expendable :)
+@w[19 Dec 16:43:25] @Y[@MNewbie@Y] @W(@RImm@W)@Y @YAnaristos: j/k
+@w[19 Dec 16:44:27] @Y[@MNewbie@Y] @YErgou: got it,retention for characters below lv5 is 90 days
+@w[19 Dec 16:45:02] @Y[@MNewbie@Y] @W(@RImm@W)@Y @YKharpern: Hey there, Jahari. Welcome to the magical realm of Aardwolf :-)
+@w[19 Dec 16:45:03] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAphelion: you don't want to quit now anyway :)
+@w[19 Dec 16:45:08] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAphelion: Hey, Jahari. Welcome :)
+@w[19 Dec 17:15:37] @Y[@MNewbie@Y] @YErgou: what can I find a boat
+@w[19 Dec 17:15:59] @Y[@MNewbie@Y] @YErgou: where can I find a boat
+@w[19 Dec 17:16:01] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YMetria: The general store, I *think*
+@w[19 Dec 17:18:16] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YAphelion: runto boat from anywhere in aylor, Ergou
+@w[19 Dec 17:18:57] @Y[@MNewbie@Y] @YErgou: Thank you
+@w[21 Dec 11:16:32] @Y[@MNewbie@Y] @YCorladin: What is the command to view information about a certain skill?
+@w[21 Dec 11:16:49] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YMetria: Depends on what information about it you want to know
+@w[21 Dec 11:16:59] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YMetria: All spells and skills have a help file, for instance.
+@w[21 Dec 11:17:16] @Y[@MNewbie@Y] @YCorladin: For example, if I wanted to know what Divine Intervention did, what would I type?
+@w[21 Dec 11:17:26] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YMetria: help divine intervention
+@w[21 Dec 11:17:48] @Y[@MNewbie@Y] @YCorladin: Simple as that huh? *Facepalms*
+@w[21 Dec 11:18:50] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YMetria: Yeah, the imms have been really good about keeping the help up to date, it's fantastic.
+@w[21 Dec 11:30:26] @Y[@MNewbie@Y] @YIso: how do you use a book thats just lying around
+@w[21 Dec 11:31:20] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YMetria: Hiya Nor, welcome to Aardwolf
+@w[21 Dec 12:06:53] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YMetria: Hiya Sirdeathrot, welcome to Aardwolf
+@w[21 Dec 20:38:46] @Y[@MNewbie@Y] @YChoronzon: Hello FallenSeraph
+@w[22 Dec 00:00:47] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YPleiades: hi Recall
+@w[22 Dec 00:00:59] @Y[@MNewbie@Y] @YRecall: Hello Aylorian.
+@w[22 Dec 00:01:35] @Y[@MNewbie@Y] @YRecall: honestly I expected this name to be taken
+@w[22 Dec 00:01:42] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YPleiades: heheh
+@w[22 Dec 00:01:43] @Y[@MNewbie@Y] @YRecall: so I made it as a joke really.
+@w[22 Dec 00:01:47] @Y[@MNewbie@Y]: @wPleiades goes @Goo@gOO@Goo@gOO@Goo@w.
+@w[22 Dec 00:03:29] @Y[@MNewbie@Y]: @YRecall shrieks as Ishai covers him in whipped cream!
+@w[22 Dec 00:23:30] @Y[@MNewbie@Y] @YHaidyn: how do I see you be most relevant tax, I am using an iPhone? Any help would be appreciated. how do I see The most relevant text I am using an iPhone any help would be appreciated
+@w[22 Dec 00:29:32] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YPleiades: hi Jamie
+@w[22 Dec 00:29:48] @Y[@MNewbie@Y] @YRecall: Haidyn, I'm not quite sure the question you are asking.
+@w[22 Dec 00:29:59] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YPleiades: Haidyn: you can check help spam to reduce the text you see
+@w[22 Dec 00:30:11] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YPleiades: how much text you see*
+@w[22 Dec 15:26:36] @Y[@MNewbie@Y] @W(@RImm@W)@Y @YBroud: Hello Hurk, welcome to Aardwolf
+@w[22 Dec 15:26:53] @Y[@MNewbie@Y] @YHurk: thank you and hello
+@w[22 Dec 15:31:40] @Y[@MNewbie@Y] @W(@RImm@W)@Y @YAnaristos: Hey, Hurk. Welcome.
+@w[22 Dec 15:32:11] @Y[@MNewbie@Y] @YHurk: hello
+@w[22 Dec 15:32:35] @Y[@MNewbie@Y] @YAerelan: welcome Hurk
+@w[22 Dec 15:33:34] @Y[@MNewbie@Y]: @YHurk shrieks as Ishai covers him in whipped cream!
+@w[22 Dec 15:39:15] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YShuli: Welcome Drae :D
+@w[22 Dec 15:43:23] @Y[@MNewbie@Y] @YDrae: [Greetings, fellow students!]
+@w[22 Dec 15:43:49] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YTsarikos: Welcome to Aardwolf, Drae! :) you don't need to put square brackets around what you say, by the way :)
+@w[22 Dec 15:43:50] @Y[@MNewbie@Y] @YAerelan: welcome Drae
+@w[22 Dec 15:44:28] @Y[@MNewbie@Y] @YDrae: Gosh, thanks for telling me.
+@w[22 Dec 15:53:52] @Y[@MNewbie@Y] @YDeftssen: hello every1, Claire made me do that.
+@w[22 Dec 22:42:04] @Y[@MNewbie@Y] @YUnox: sorry how do i config my prompt again?
+@w[22 Dec 22:42:15] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YMetria: Unox: check out 'help prompt'
+@w[22 Dec 22:42:26] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YMetria: Hi CooledSyn, welcome to Aardwolf
+@w[22 Dec 22:42:45] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Welcome to Aardwolf, CooledSyn!
+@w[22 Dec 22:47:48] @Y[@MNewbie@Y]: @YAcaxochitl grabs her pompoms and cheers Frostbolt's graduation!  Maybe you should cheer too.
+@w[22 Dec 22:56:43] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Welcome to Aardwolf, Effzefez!
+@w[22 Dec 23:07:58] @Y[@MNewbie@Y]: @YQuolful grabs his pompoms and cheers Unox's graduation!  Maybe you should cheer too.
+@w[22 Dec 23:14:46] @Y[@MNewbie@Y] @W(@mAdvisor@W)@Y @YGrowltiger: Hi Frostflare, welcome to Aardwolf.
+@w[22 Dec 23:14:53] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Welcome to Aardwolf, Frostflare!
+@w[22 Dec 23:21:19] @Y[@MNewbie@Y] @YFrostflare: hey
+@w[22 Dec 23:21:26] @Y[@MNewbie@Y] @YMujaro: Howdy
+@w[22 Dec 23:21:50] @Y[@MNewbie@Y] @YMujaro: Also, Santa is 2 blocks south of recall.
+@w[22 Dec 23:22:26] @Y[@MNewbie@Y] @YFrostflare: there's a lot to read here whoa...
+@w[22 Dec 23:22:55] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Santa has arrived although, I don't think he'll give you a present on your first day...think you have to get one on your 2nd day.
+@w[22 Dec 23:23:05] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Welcome to Aardwolf, Eurek!
+@w[22 Dec 23:23:56] @Y[@MNewbie@Y] @YScubaSteve: woah...  when did lottery tickets go up to 10k?
+@w[22 Dec 23:24:19] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Just a few days ago...whenever he did last reboot.  It's on announce board.
+@w[22 Dec 23:24:23] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Prizes went up as well!
+@w[22 Dec 23:26:50] @Y[@MNewbie@Y] @YScubaSteve: Its nice that they bumped up the winnings but kinda rough on new folks.  wasn't even paying attention and I ust blew through 650k gold.  My fault I suppose for not reading the forums.
+@w[22 Dec 23:30:06] @Y[@MNewbie@Y] @YMujaro: Couldn't have been more than two days ago. Tickets and prizes now 10x the gold.
+@w[22 Dec 23:30:28] @Y[@MNewbie@Y] @YFrostflare: sorry where is the academy from recall?
+@w[22 Dec 23:30:31] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YPleiades: up
+@w[22 Dec 23:30:45] @Y[@MNewbie@Y] @YFrostflare: oh okay thanks!
+@w[22 Dec 23:31:19] @Y[@MNewbie@Y]: @YPleiades smiles happily.
+@w[22 Dec 23:31:19] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: It was on the 19th, you can check out the last announce note or the one before the last for details.
+@w[22 Dec 23:33:21] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: If you read no other notes on the boards, it's important to read announce and mudinfo.  Those are always important messages for everyone.
+@w[23 Dec 23:56:48] @Y[@MNewbie@Y] @YEmmaraye: is anybody there?
+@w[23 Dec 23:57:01] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YMilquetoast: Where exactly?
+@w[23 Dec 23:57:19] @Y[@MNewbie@Y]: @YAcaxochitl peers around herself intently.
+@w[23 Dec 23:58:28] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: Need anything, Emmaraye?
+@w[23 Dec 23:59:56] @Y[@MNewbie@Y] @YEmmaraye: hi, is it possible to KEEP more than one of something at once.  i have 9 pies and one by one by one putting them away or keeping them is getting annoying.
+@w[24 Dec 00:00:06] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YMilquetoast: read help keep
+@w[24 Dec 00:00:38] @Y[@MNewbie@Y] @W(@GHelper@W)@Y @YAcaxochitl: The syntax for commands and such is always located at the top of the helpfile!

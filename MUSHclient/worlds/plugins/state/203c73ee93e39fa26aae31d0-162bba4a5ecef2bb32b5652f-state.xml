@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE muclient>
+<!-- MuClient version 4.99 -->
+<!-- Written by Nick Gammon -->
+<!-- Home Page: http://www.mushclient.com/ -->
+
+<!-- ²å¼þ×´Ì¬ÒÑ±»±£´æ¡£²å¼þ:¡°Aardwolf_Package_Update_Checker¡±£¬ÓÎÏ·:¡°fy¡±¡£ -->
+
+<muclient>
+
+<!-- variables -->
+
+<variables
+   muclient_version="4.99"
+   world_file_version="15"
+  >
+</variables>
+</muclient>

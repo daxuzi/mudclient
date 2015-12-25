@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE muclient>
+<!-- MuClient version 4.99 -->
+<!-- Written by Nick Gammon -->
+<!-- Home Page: http://www.mushclient.com/ -->
+
+<!-- Plugin state saved. Plugin: "Messages_Window". World: "fy". -->
+
+<muclient>
+
+<!-- variables -->
+
+<variables
+   muclient_version="4.99"
+   world_file_version="15"
+  >
+  <variable name="mw_126d9061f9758498c878a204_windowflags">0</variable>
+  <variable name="mw_126d9061f9758498c878a204_windowmode">6</variable>
+  <variable name="mw_126d9061f9758498c878a204_windowx">0</variable>
+  <variable name="mw_126d9061f9758498c878a204_windowy">0</variable>
+</variables>
+</muclient>

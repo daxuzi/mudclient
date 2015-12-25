@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE muclient>
+<!-- MuClient version 4.99 -->
+<!-- Written by Nick Gammon -->
+<!-- Home Page: http://www.mushclient.com/ -->
+
+<!-- ²å¼þ×´Ì¬ÒÑ±»±£´æ¡£²å¼þ:¡°Aardwolf_Health_Bars¡±£¬ÓÎÏ·:¡°fytest¡±¡£ -->
+
+<muclient>
+
+<!-- variables -->
+
+<variables
+   muclient_version="4.99"
+   world_file_version="15"
+  >
+  <variable name="background_colour">0</variable>
+  <variable name="enabled">true</variable>
+  <variable name="flat_gauges">1</variable>
+  <variable name="font_name">Dina</variable>
+  <variable name="font_size">8</variable>
+  <variable name="graphicalMode">1</variable>
+  <variable name="height">22</variable>
+  <variable name="mw_ef4a86dbc9cd4dd6f4c69385_windowflags">2</variable>
+  <variable name="mw_ef4a86dbc9cd4dd6f4c69385_windowmode">0</variable>
+  <variable name="mw_ef4a86dbc9cd4dd6f4c69385_windowx">0</variable>
+  <variable name="mw_ef4a86dbc9cd4dd6f4c69385_windowy">569</variable>
+  <variable name="overlay_numbers">1</variable>
+  <variable name="reverseTNL">0</variable>
+  <variable name="showBar">showBar = {}
+  showBar.Enemy = {}
+    showBar.Enemy[1] = "Enemy :"
+    showBar.Enemy[2] = true
+    showBar.Enemy[3] = "Enemy:"
+    showBar.Enemy[4] = 255
+    showBar.Enemy[5] = 68
+  showBar.Align = {}
+    showBar.Align[1] = "Align :"
+    showBar.Align[2] = true
+    showBar.Align[3] = "Alignment:"
+    showBar.Align[4] = 255
+    showBar.Align[5] = 65535
+  showBar.Blood = {}
+    showBar.Blood[1] = "ÆøÑª:"
+    showBar.Blood[2] = true
+    showBar.Blood[3] = "ÆøÑª:"
+    showBar.Blood[4] = 16733440
+    showBar.Blood[5] = 4465152
+  showBar.Health = {}
+    showBar.Health[1] = "ÄÜÁ¿:"
+    showBar.Health[2] = true
+    showBar.Health[3] = "ÄÜÁ¿:"
+    showBar.Health[4] = 65280
+    showBar.Health[5] = 17408
+  showBar.Force = {}
+    showBar.Force[1] = "ÄÚÁ¦:"
+    showBar.Force[2] = true
+    showBar.Force[3] = "ÄÚÁ¦:"
+    showBar.Force[4] = 65535
+    showBar.Force[5] = 17476
+  showBar.TNL = {}
+    showBar.TNL[1] = "TNL   :"
+    showBar.TNL[2] = true
+    showBar.TNL[3] = "TNL:"
+    showBar.TNL[4] = 16777215
+    showBar.TNL[5] = 4473924</variable>
+  <variable name="showLabels">1</variable>
+  <variable name="stacked">0</variable>
+  <variable name="thresh1active">0</variable>
+  <variable name="thresh1color">65535</variable>
+  <variable name="thresh1percent">40</variable>
+  <variable name="thresh2active">0</variable>
+  <variable name="thresh2color">255</variable>
+  <variable name="thresh2percent">20</variable>
+  <variable name="width">1137</variable>
+</variables>
+</muclient>

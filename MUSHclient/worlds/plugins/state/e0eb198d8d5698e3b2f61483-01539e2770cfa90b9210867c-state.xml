@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE muclient>
+<!-- MuClient version 4.99 -->
+<!-- Written by Nick Gammon -->
+<!-- Home Page: http://www.mushclient.com/ -->
+
+<!-- ²å¼þ×´Ì¬ÒÑ±»±£´æ¡£²å¼þ:¡°Aardwolf_Help_mw¡±£¬ÓÎÏ·:¡°Aardwolf¡±¡£ -->
+
+<muclient>
+
+<!-- variables -->
+
+<variables
+   muclient_version="4.99"
+   world_file_version="15"
+  >
+  <variable name="enabled">true</variable>
+  <variable name="help_lookup">help_lookup = {
+  help = "Help",
+  bigmap = "Bigmap",
+  map = "Map",
+  }</variable>
+  <variable name="help_time">help_time = {
+  Help = 1450767927,
+  Bigmap = 1450767725,
+  Map = 1450796386,
+  }</variable>
+  <variable name="helps">helps = {
+  Help = "Help Keywords : Help.\
+Help Category : Information.\
+Related Helps : Contents, Index.\
+Last Updated  : 2013-01-31 22:18:28.\
+----------------------------------------------------------------------------\
+Syntax: help &lt;keyword&gt;           : Display help on given keyword.\
+        help search &lt;keyword(s)&gt; : List all help files containing keyword.\
+\
+Aardwolf has an extensive list of help files available (over 1100 total).\
+These cover all topics- command syntax, policies/rules, history, husband, \
+wife, work, and many more.\
+\
+To access a help file, simply type 'help &lt;keyword&gt;' (for example, 'help\
+kick' or 'help magic missile'). The MUD will attempt to guess what help you\
+are looking for and display it if there is only one, or display a list of\
+options if several possibilities exist.\
+\
+You may use the 'contents' command to see a list of all helpfiles based on\
+a particular topic.  Type 'contents' with no argument to see a list of\
+available categories.  Type 'contents &lt;categoryname&gt;' to see all help\
+files in that category.\
+\
+You may also use the 'index' command to see all help files that begin with\
+a certain letter or letters, as well as a short description for each.  See\
+'help index' for more information.  Similarly, you may use 'help search\
+&lt;keyword(s)&gt;' to list help files which contain the given string ('help\
+search cure', etc.).\
+\
+If you are a new player trying to figure out where to start, please read\
+'help newhelp'.  If you have any questions, don't hesitate to ask on the\
+newbie channel (see 'help newbietalk') or other channels ('help channels').\
+\
+(Note- some help files have additional, unlisted keywords.  This makes help\
+files more accessible while reducing clutter, and is intentional.)\
+----------------------------------------------------------------------------",
+  Bigmap = "Help Keywords : Bigmap.\
+Help Category : Features.\
+Related Helps : Coordinates, Map, MCCP, World.\
+Last Updated  : 2012-07-28 19:54:10.\
+----------------------------------------------------------------------------\
+\
+Syntax:\
+\
+    bigmap \
+    bigmap page\
+\
+\
+Summary:\
+\
+Type 'bigmap' to see a map of the continent you are on.\
+Type 'bigmap page' to add paging to the map.\
+\
+\
+Details:\
+\
+'Bigmap' will output the view of the continent you are currently on.  This\
+compresses each 1x3 map square ([?] on regular map) into a single square\
+and displays the entire continent at once.  You will appear as a red * on\
+the map.  It may be used while within an area; the continent map will show\
+with a magenta * for the area you are currently in.\
+\
+This command is very bandwidth-consuming, and as such, has a lag time added\
+to prevent overuse.  This lag time is reduced for MCCP users (see 'help\
+MCCP').\
+\
+If your connection cannot handle bigmap being sent all at once (common with\
+non-MCCP users), use the syntax 'bigmap page' to see a version of bigmap\
+that respects page size settings. Even with this set, you may still have to\
+reduce your page size however. To make the paged version of bigmap your\
+default, use 'alias bigmap bigmap page'.\
+----------------------------------------------------------------------------",
+  Map = "Help Keywords : Map.\
+Help Category : Features.\
+Related Helps : Automap, Bigmap, Maprun, Tags, Maptype, Sectors.\
+Last Updated  : 2015-04-09 12:48:12.\
+----------------------------------------------------------------------------\
+Aardwolf features a real-time ASCII map of your surrounding area, based on\
+line of sight a character would be able to see from their current room. \
+In addition to your immediate area, mobs, other players and doors are also\
+shown on the map.\
+\
+The map key is:\
+\
+        #  - You                         --- - North/south wall\
+        *  - Other players                |  - East/west wall\
+        !  - Mobiles                      +  - Door (closed)\
+        !  - Pet/other charmed mob        +  - Door (locked)\
+        !  - Angry mob (with Sense        &gt;  - Up exit\
+             Anger cast)                  &gt;  - Up exit (closed)\
+        !  - Unkillable Mob               &lt;  - Down exit\
+        $  - Shopkeeper                   &lt;  - Down exit (closed)\
+\
+       [?] - Area exit                    #  - PK-flagged room             \
+       [?] - Clan public hall exit        D  - Donation room\
+\
+        \
+Other characters on the map represent the terrain of the local area. Some \
+of the major terrains are:\
+\
+        [ ]   Inside             . .   City\
+        , `   Field              ; ;   Hills\
+        / \\   Mountain           ~ ~   Water\
+        ~ ~   Waternoswim        . .   Air\
+        ~ ~   Desert             % %   Quicksand\
+        ~ ~   Underwater         ~ ~   Ice\
+        . .   Underground        - -   East/West road\
+        . .   North/South road   ~ ~   River\
+        / \\   Volcano            % %   Cave\
+        # #   Dungeon            ( *   Forest\
+\
+Other terrain types not listed here are for aesthetic purposes only, such\
+as [ ] for temples, * * for shops, etc.\
+\
+See the related helps listed above for more configuration options with the\
+map.  You can always see the map from your current room by typing 'map'.\
+----------------------------------------------------------------------------",
+  }</variable>
+</variables>
+</muclient>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE muclient>
+<!-- Saved on ÐÇÆÚ¶þ, Ê®¶þÔÂ 08, 2015, 11:04 ÏÂÎç -->
+<!-- MuClient version 4.99 -->
+<!-- Written by Nick Gammon -->
+<!-- Home Page: http://www.mushclient.com/ -->
+
+<!-- Plugin state saved. Plugin: "GMCP_handler". World: "fy". -->
+
+<muclient>
+
+<!-- variables -->
+
+<variables
+   muclient_version="4.99"
+   world_file_version="15"
+   date_saved="2015-12-08 23:04:56"
+  >
+  <variable name="GMCPDebug">0</variable>
+</variables>
+</muclient>
